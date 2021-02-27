@@ -39,7 +39,7 @@ export default function Home({projects}) {
       </div>
       <div className="flex flex-col space-y-8 py-16 justify-center items-center bg-white">
         <h1 className="text-center w-screen text-4xl font-bold">My Projects</h1>
-        <p className="text-center text-xl">It's a wonderful opportunity to work with people who are so passionate about their own craft<br/>and to enable them to achieve new heights. Check out my latest projects thatI've been working on.</p>
+        <p className="text-center text-xl">It's a wonderful opportunity to work with people who are so passionate about their own craft<br/>and to enable them to achieve new heights. Check out my latest projects that I've been working on.</p>
         <div className="flex flex-row justify-center items-center space-x-20">
           <a href="/portfolio/section-31">
             <img className="h-96 rounded-md transition duration-300 ease-in-out hover:opacity-75" src="wes-with-starfox-2.jpg" alt="Section 31 project" />
