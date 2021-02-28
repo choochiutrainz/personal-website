@@ -6,9 +6,9 @@ export default function Home({projects}) {
       <Head>
         <title>Home - Wesley "Chewy" Chiu</title>
         <meta name='keywords' content='web development, agile, XP, air force, product manager, pm' />
-        <meta property="og:site_name" content={`Wesley "Chewy" Chiu`} />
-        <meta property="og:title" content={`Home - Wesley "Chewy" Chiu`} />
-        <meta property="og:description" content="Product Manager pushing the art of possible in tech and software. Check out what I've done and what I can do for you." />
+        <meta property="og:site_name" content="choochiutrain.com" />
+        <meta property="og:title" content={`Hampton Product Manager & Software Engineer`} />
+        <meta property="og:description" content="Pushing the art of possible for tech and software in the world's largest bureaucracy. See how my experience revolutionizing how the Air Force delivers software sets me apart from the others." />
         <meta property="og:image" content="" />
         <meta property="og:url" content="https://choochiutrain.com" />
       </Head>

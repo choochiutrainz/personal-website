@@ -5,8 +5,8 @@ const darpa = () => {
         <div>
             <Head>
                 <title>DARPA - Wesley "Chewy" Chiu</title>
-                <meta property="og:site_name" content={`Wesley "Chewy" Chiu`} />
-                <meta property="og:title" content={`DARPA - Wesley "Chewy" Chiu`} />
+                <meta property="og:site_name" content="choochiutrain.com" />
+                <meta property="og:title" content="Hacking drones with DARPA" />
                 <meta property="og:description" content="Trailblazing swarm drone tactics and technologies to dominate the future battlefield. See how I applied by cybersecurity skills in this burgeoning field." />
                 <meta property="og:image" content="" />
                 <meta property="og:url" content="https://choochiutrain.com/darpa" />

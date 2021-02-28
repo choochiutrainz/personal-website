@@ -6,8 +6,8 @@ const contact = () => {
         <div>
             <Head>
                 <title>Contact Me - Wesley "Chewy" Chiu</title>
-                <meta property="og:site_name" content={`Wesley "Chewy" Chiu`} />
-                <meta property="og:title" content={`Contact Me - Wesley "Chewy" Chiu`} />
+                <meta property="og:site_name" content="choochiutrain.com" />
+                <meta property="og:title" content="Hire a Product Manager to broaden the art of possible" />
                 <meta property="og:description" content="All great things start as one small thing. Let's chat and make it happen 👋🏼" />
                 <meta property="og:image" content="" />
                 <meta property="og:url" content="https://choochiutrain.com/contact" />

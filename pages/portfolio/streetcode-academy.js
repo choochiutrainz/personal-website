@@ -5,8 +5,8 @@ const streetcodeacademy = () => {
         <div>
             <Head>
                 <title>Streetcode Academy - Wesley "Chewy" Chiu</title>
-                <meta property="og:site_name" content={`Wesley "Chewy" Chiu`} />
-                <meta property="og:title" content={`Streetcode Academy - Wesley "Chewy" Chiu`} />
+                <meta property="og:site_name" content="choochiutrain.com" />
+                <meta property="og:title" content="Promoting and practicing allyship with Streetcode Academy" />
                 <meta property="og:description" content="Empowering underprivileged communities to fulfill their full potential. See how my commitment to allyship is helping budding engineers succeed in the tech industry." />
                 <meta property="og:image" content="" />
                 <meta property="og:url" content="https://choochiutrain.com/streetcode-academy" />

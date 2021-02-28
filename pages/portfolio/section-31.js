@@ -5,9 +5,9 @@ const section31 = () => {
         <div>
             <Head>
                 <title>Section 31 - Wesley "Chewy" Chiu</title>
-                <meta property="og:site_name" content={`Wesley "Chewy" Chiu`} />
-                <meta property="og:title" content={`Section 31 - Wesley "Chewy" Chiu`} />
-                <meta property="og:description" content="Modernizing the US Space Force's RF deconfliction capabilities to promote a space environment. Check out how we turned a _____" />
+                <meta property="og:site_name" content="choochiutrain.com" />
+                <meta property="og:title" content="Modernizing the US Space Force's RF deconfliction capabilities to promote a space environment" />
+                <meta property="og:description" content="Delivering at the speed of relevance. Check out how we did the impossible and took a 3-day process into a 3-min step in just 52 days." />
                 <meta property="og:image" content="" />
                 <meta property="og:url" content="https://choochiutrain.com/section-31" />
             </Head>

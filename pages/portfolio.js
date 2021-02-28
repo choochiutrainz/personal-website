@@ -5,9 +5,9 @@ const portfolio = () => {
         <div>
             <Head>
                 <title>Portfolio - Wesley "Chewy" Chiu</title>
-                <meta property="og:site_name" content={`Wesley "Chewy" Chiu`} />
-                <meta property="og:title" content={`Portfolio - Wesley "Chewy" Chiu`} />
-                <meta property="og:description" content="Software Engineer and Penetration Tester by trade, Designer by heart, Product Manager by choice. See what you can expect from me." />
+                <meta property="og:site_name" content="choochiutrain.com" />
+                <meta property="og:title" content="Product Manager and Software Engineer Portfolio" />
+                <meta property="og:description" content="Here you'll find my most recent work. Check out what I've done and see what I can do for you.." />
                 <meta property="og:image" content="" />
                 <meta property="og:url" content="https://choochiutrain.com/portfolio" />
             </Head>

@@ -5,8 +5,8 @@ const defenseinnovationunit = () => {
         <div>
             <Head>
                 <title>Defense Innovation Unit - Wesley "Chewy" Chiu</title>
-                <meta property="og:site_name" content={`Wesley "Chewy" Chiu`} />
-                <meta property="og:title" content={`Defense Innovation Unit - Wesley "Chewy" Chiu`} />
+                <meta property="og:site_name" content="choochiutrain.com" />
+                <meta property="og:title" content="Transforming military capabilities with commercial technologies" />
                 <meta property="og:description" content="Using drones to deliver lifesaving blood and medical supplies to the front line. See how I apply user-centered design and to transform the military's capabilities with commercial technology." />
                 <meta property="og:image" content="" />
                 <meta property="og:url" content="https://choochiutrain.com/defense-innovation-unit" />

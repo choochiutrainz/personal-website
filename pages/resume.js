@@ -5,8 +5,8 @@ const resume = () => {
         <div>
             <Head>
                 <title>Resume - Wesley "Chewy" Chiu</title>
-                <meta property="og:site_name" content={`Wesley "Chewy" Chiu`} />
-                <meta property="og:title" content={`Resume - Wesley "Chewy" Chiu`} />
+                <meta property="og:site_name" content="choochiutrain.com" />
+                <meta property="og:title" content="Software Engineer and Penetration Tester by trade, Designer by heart, Product Manager by choice." />
                 <meta property="og:description" content="Take a deeper look at what I've accomplished and what I can bring to your team." />
                 <meta property="og:image" content="" />
                 <meta property="og:url" content="https://choochiutrain.com/resume" />
