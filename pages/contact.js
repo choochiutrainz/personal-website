@@ -6,6 +6,11 @@ const contact = () => {
         <div>
             <Head>
                 <title>Contact Me - Wesley "Chewy" Chiu</title>
+                <meta property="og:site_name" content={`Wesley "Chewy" Chiu`} />
+                <meta property="og:title" content={`Contact Me - Wesley "Chewy" Chiu`} />
+                <meta property="og:description" content="All great things start as one small thing. Let's chat and make it happen 👋🏼" />
+                <meta property="og:image" content="" />
+                <meta property="og:url" content="https://choochiutrain.com/contact" />
             </Head>
             <div id="section1" className="w-screen flex flex-col justify-center items-center bg-s31-blue space-y-10 py-16">
                 <h1 className="text-center text-3xl text-yellow-300">Feel free to reach out if you have any questions or comments about<br/>what I have to offer. Also, you can always just send me a friendly hello! 👋🏼</h1>

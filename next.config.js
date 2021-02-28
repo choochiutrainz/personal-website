@@ -15,7 +15,7 @@ module.exports = {
       "/blog": { page: "/blog" },
       "/portfolio/section-31": { page: "/portfolio/section-31" },
       "/portfolio/rogue-squadron": { page: "/portfolio/rogue-squadron" },
-      "/portfolio/defense-innovation-unit": { page: "portfolio/defense-innovation-unit" },
+      "/portfolio/defense-innovation-unit": { page: "/portfolio/defense-innovation-unit" },
       "/portfolio/streetcode-academy": { page: "/portfolio/streetcode-academy" },
       "/portfolio/darpa": { page: "/portfolio/darpa" },
     }

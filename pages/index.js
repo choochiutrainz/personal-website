@@ -1,6 +1,4 @@
 import Head from 'next/head'
-import ProjectList from '../components/ProjectList'
-//      <ProjectList projects={projects} />
 
 export default function Home({projects}) {
   return (
@@ -8,6 +6,11 @@ export default function Home({projects}) {
       <Head>
         <title>Home - Wesley "Chewy" Chiu</title>
         <meta name='keywords' content='web development, agile, XP, air force, product manager, pm' />
+        <meta property="og:site_name" content={`Wesley "Chewy" Chiu`} />
+        <meta property="og:title" content={`Home - Wesley "Chewy" Chiu`} />
+        <meta property="og:description" content="Product Manager pushing the art of possible in tech and software. Check out what I've done and what I can do for you." />
+        <meta property="og:image" content="" />
+        <meta property="og:url" content="https://choochiutrain.com" />
       </Head>
       <div id="section1" className="flex flex-row justify-center bg-s31-blue space-x-20">
         <img className="h-96 text-gray-100 m-40 mr-0 rounded-md" src="personal-portrait.png" alt="Portrait of me" />
@@ -74,15 +77,4 @@ export default function Home({projects}) {
       </div>
     </div>
   )
-}
-
-export const getStaticProps = async () => {
-  const res = await fetch(`https://jsonplaceholder.typicode.com/posts?_limit=6`)
-  const projects = await res.json()
-
-  return {
-    props: {
-      projects
-    }
-  }
 }

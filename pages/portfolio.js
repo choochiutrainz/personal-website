@@ -5,10 +5,15 @@ const portfolio = () => {
         <div>
             <Head>
                 <title>Portfolio - Wesley "Chewy" Chiu</title>
+                <meta property="og:site_name" content={`Wesley "Chewy" Chiu`} />
+                <meta property="og:title" content={`Portfolio - Wesley "Chewy" Chiu`} />
+                <meta property="og:description" content="Software Engineer and Penetration Tester by trade, Designer by heart, Product Manager by choice. See what you can expect from me." />
+                <meta property="og:image" content="" />
+                <meta property="og:url" content="https://choochiutrain.com/portfolio" />
             </Head>
             <div id="section1" className="flex flex-col justify-center items-center text-center bg-gray-200 space-y-8 py-16 px-24">
                 <h1 className="text-4xl font-bold">I'm always looking to solve the next big challenge.</h1>
-                <p className="text-2xl">I’ve centered my career around solving compelling problems and producing real, tangible value to both the business and the end user with a kick-ass team. There’s no problem that I can’t tackle. Here are some of my most recent projects that showcase how we broadened the art of possible.</p>
+                <p className="text-2xl">I’ve centered my career around solving compelling problems and producing real, tangible impact for the business and the end user. There is no problem that I can't tackle. Here are some of my most recent projects that showcase how we broadened the art of possible.</p>
                 <div className="flex flex-row justify-center items-center space-x-20">
                     <a href="/portfolio/section-31">
                         <img className="h-96 rounded-md transition duration-300 ease-in-out hover:opacity-75" src="wes-with-starfox-2.jpg" alt="Section 31 project" />

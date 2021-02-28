@@ -5,6 +5,11 @@ const resume = () => {
         <div>
             <Head>
                 <title>Resume - Wesley "Chewy" Chiu</title>
+                <meta property="og:site_name" content={`Wesley "Chewy" Chiu`} />
+                <meta property="og:title" content={`Resume - Wesley "Chewy" Chiu`} />
+                <meta property="og:description" content="Take a deeper look at what I've accomplished and what I can bring to your team." />
+                <meta property="og:image" content="" />
+                <meta property="og:url" content="https://choochiutrain.com/resume" />
             </Head>
             <div id="section1" className="grid grid-cols-4 p-40 pt-24 items-start w-screen bg-s31-blue">
                 <img className="max-h-96 text-gray-100 rounded-md" src="Official-Photo-20210217.jpg" alt="Portrait of me" />

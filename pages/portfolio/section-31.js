@@ -5,6 +5,11 @@ const section31 = () => {
         <div>
             <Head>
                 <title>Section 31 - Wesley "Chewy" Chiu</title>
+                <meta property="og:site_name" content={`Wesley "Chewy" Chiu`} />
+                <meta property="og:title" content={`Section 31 - Wesley "Chewy" Chiu`} />
+                <meta property="og:description" content="Modernizing the US Space Force's RF deconfliction capabilities to promote a space environment. Check out how we turned a _____" />
+                <meta property="og:image" content="" />
+                <meta property="og:url" content="https://choochiutrain.com/section-31" />
             </Head>
             <div id="section1" className="flex flex-col justify-center items-center text-center bg-s31-blue space-y-8 py-16 px-24">
                 <h1 className="text-4xl text-yellow-300 font-bold">A SureFire Success</h1>

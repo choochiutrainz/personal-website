@@ -5,6 +5,11 @@ const passions = () => {
         <div>
             <Head>
                 <title>Passions - Wesley "Chewy" Chiu</title>
+                <meta property="og:site_name" content={`Wesley "Chewy" Chiu`} />
+                <meta property="og:title" content={`Passions - Wesley "Chewy" Chiu`} />
+                <meta property="og:description" content="Product Manager by day, Penetration Tester by night (maximimum hoodie stealth 🐱‍👤), Photographer capturing memories when the moment is just right. Get to know my passions and personality." />
+                <meta property="og:image" content="" />
+                <meta property="og:url" content="https://choochiutrain.com/passions" />
             </Head>
             <div id="section1" className="flex flex-col justify-center items-center text-center bg-s31-blue space-y-8 py-16 px-40">
                 <h1 className="text-5xl font-bold text-yellow-300">A few fun facts about myself.</h1>
