@@ -24,7 +24,7 @@ const Nav = () => {
     const getHeaderText = () => {
         switch (router.pathname) {
             case "/":
-                return <div className="absolute bottom-0">
+                return <div>
                     <h1 className="text-5xl text-gray-100 font-bold leading-tight pb-6">Leading teams to <br/>build working software<br/>that people love.</h1>
                     <p className="text-2xl text-gray-100 font-bold leading-normal">Welcome to choochiutrain.com,<br/>the Internet home for Wesley "Chewy" Chiu.</p>
                     <a href="/contact">
@@ -36,10 +36,10 @@ const Nav = () => {
                         </button>
                     </a>
                 </div>
-            case "/portfolio": return <div className="absolute bottom-0"><h1 className="text-5xl text-gray-100 font-bold leading-tight pb-6">See what you can<br/>expect from me.</h1></div>
-            case "/passions": return <div className="absolute bottom-0"><h1 className="text-5xl text-gray-100 font-bold leading-tight pb-6">Check out my<br/>Passions and Hobbies.</h1></div>
+            case "/portfolio": return <div><h1 className="text-5xl text-gray-100 font-bold leading-tight pb-6">See what you can<br/>expect from me.</h1></div>
+            case "/passions": return <div><h1 className="text-5xl text-gray-100 font-bold leading-tight pb-6">Check out my<br/>Passions and Hobbies.</h1></div>
             case "/resume": 
-                return <div className="absolute bottom-0">
+                return <div>
                     <h1 className="text-5xl text-gray-100 font-bold leading-tight pb-6">Learn more about<br/>My Story.</h1>
                     <a href="https://drive.google.com/file/d/1t7xzj6kOU7h9LV7isqMURVoI_PXs3Oav/view">
                         <button className="inline-flex items-center bg-indigo-500 text-gray-100 font-bold py-2 px-4 my-4 rounded-md transition duration-300 ease-in-out hover:bg-indigo-600 transform hover:-translate-y-1 hover:scale-110">
@@ -50,10 +50,10 @@ const Nav = () => {
                         </button>
                     </a>
                 </div>
-            case "/contact": return <div className="absolute bottom-0"><h1 className="text-5xl text-gray-100 font-bold leading-tight pb-6">Let's connect today!</h1></div>
-            case "/blog": return <div className="absolute bottom-0"><h1 className="text-5xl text-gray-100 font-bold leading-tight pb-6">Get to know my<br/>thoughts and philosophy.</h1></div>
+            case "/contact": return <div><h1 className="text-5xl text-gray-100 font-bold leading-tight pb-6">Let's connect today!</h1></div>
+            case "/blog": return <div><h1 className="text-5xl text-gray-100 font-bold leading-tight pb-6">Get to know my<br/>thoughts and philosophy.</h1></div>
             case "/portfolio/section-31":
-                return <div className="absolute bottom-0">
+                return <div>
                     <h1 className="inline flex items-center text-5xl text-gray-100 font-bold leading-tight pb-6"><img className="h-20 pr-4" src="../starfox-logo.png"></img>SureFire</h1>
                     <p className="text-2xl text-gray-100 font-bold leading-normal pb-6">Modernizing the US Space Force's<br/>RF Deconfliction capabilities to<br/>promote a safe space environment.</p>
                     <a className="inline flex items-center" href="https://drive.google.com/file/d/1I01UTW66S8Azc7Z0uqIlL-gfCTFxlqAc/view">
@@ -66,7 +66,7 @@ const Nav = () => {
                     </a>
                 </div>
             case "/portfolio/rogue-squadron":
-                return <div className="absolute bottom-0">
+                return <div>
                     <h1 className="inline flex items-center text-5xl text-gray-100 font-bold leading-tight pb-6"><img className="h-20 pr-4" src="../dowding-logo.png"></img>Dowding</h1>
                     <p className="text-2xl text-gray-100 font-bold leading-normal pb-6">The Department of Defense's sole team <br/>for providing drones to our troops and<br/>protecting them from drone threats.</p>
                     <a className="inline flex items-center" href={`https://www.youtube.com/watch?v=8ONrb1ddTRg&feature=emb_title`}>
@@ -79,7 +79,7 @@ const Nav = () => {
                     </a>
                 </div>
             case "/portfolio/defense-innovation-unit":
-                return <div className="absolute bottom-0">
+                return <div>
                     <h1 className="inline flex items-center text-5xl text-gray-100 font-bold leading-tight pb-6"><img className="h-20 pr-4" src="../defense-innovation-unit-logo.png"></img>Drone Medical Resupply</h1>
                     <p className="text-2xl text-gray-100 font-bold leading-normal pb-6">Using drones to deliver lifesaving blood<br/>and medical supplies to the front line.</p>
                     <a className="inline flex items-center" href="https://www.youtube.com/watch?v=FeSCEalMOL8">
@@ -92,7 +92,7 @@ const Nav = () => {
                     </a>
                 </div>
             case "/portfolio/streetcode-academy":
-                return <div className="absolute bottom-0">
+                return <div>
                     <img className="h-20 pb-6" src="../streetcode-logo.jpg"></img>
                     <p className="text-2xl text-gray-100 font-bold leading-normal pb-6">Empowering underprivileged communities<br/>to fulfill their full potential in the tech industry.</p>
                     <a className="inline flex items-center" href="https://vimeo.com/249009796">
@@ -105,7 +105,7 @@ const Nav = () => {
                     </a>
                 </div>
             case "/portfolio/darpa":
-                return <div className="absolute bottom-0">
+                return <div>
                     <h1 className="inline flex items-center text-5xl text-gray-100 font-bold leading-tight pb-6"><img className="h-20 pr-4" src="../swarm-challenge-logo.png"></img>DARPA Swarm Drone Challenge</h1>
                     <p className="text-2xl text-gray-100 font-bold leading-normal pb-6">Trailblazing swarm drone tactics and technologies<br/>to dominate the future battlefield.</p>
                     <a className="inline flex items-center" href="https://www.youtube.com/watch?v=ufidH_M0RqQ">
@@ -118,7 +118,7 @@ const Nav = () => {
                     </a>
                 </div>
             default:
-                return <div className="absolute bottom-0">
+                return <div>
                     <h1 className="inline flex items-center text-5xl text-gray-100 font-bold leading-tight pb-6">Oops! I can't seem to find<br/>the page you're looking for.</h1>
                     <p className="text-2xl text-gray-100 font-bold leading-normal pb-6">May I make it up to you<br/>and take you back to the home page?</p>
                     <a href="/">
@@ -162,7 +162,7 @@ const Nav = () => {
                     </a>
                 </div>
             </nav>
-            <div className="relative container mx-auto h-1/2">
+            <div className="flex flex-row justify-start items-center mx-auto h-screen px-64 pb-16">
                 {getHeaderText()}
             </div>
             <div className="flex justify-center items-center">
