@@ -7,7 +7,7 @@
     "dev": "next dev",
     "build": "next build && next export",
     "start": "next start",
-    "deploy": "rm -rf node_modules/.cache && rimraf out && next build && next export && touch out/.nojekyll && touch out/CNAME && echo \"choochiutrain.com\" >> out/CNAME && gh-pages -d out"
+    "deploy": "rm -rf node_modules/.cache && rimraf out && next build && next export && touch out/.nojekyll && touch out/CNAME && echo CHOOCHIUTRAIN.COM >> out/CNAME && gh-pages -d out"
   },
   "dependencies": {
     "formik": "^2.2.6",
