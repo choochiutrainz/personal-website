@@ -1,7 +1,6 @@
 {
   "name": "choochiutrainz.github.io",
   "author": "Wesley Chiu",
-  "homepage": "https://choochiutrain.com",
   "version": "0.1.0",
   "scripts": {
     "dev": "next dev",
