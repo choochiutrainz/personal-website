@@ -7,8 +7,8 @@ const darpa = () => {
                 <title>DARPA - Wesley "Chewy" Chiu</title>
                 <meta property="og:site_name" content="choochiutrain.com" />
                 <meta property="og:title" content="Hacking drones with DARPA" />
-                <meta property="og:description" content="Trailblazing swarm drone tactics and technologies to dominate the future battlefield. See how I applied by cybersecurity skills in this burgeoning field." />
-                <meta property="og:image" content="" />
+                <meta property="og:description" content="Trailblazing swarm drone tactics and technologies to dominate the future battlefield. See how I applied my cybersecurity skills in this burgeoning field." />
+                <meta property="og:image" content="../thumbnail.png" />
                 <meta property="og:url" content="https://choochiutrain.com/darpa" />
             </Head>
             <div id="section1" className="flex flex-col justify-center items-center text-center bg-s31-blue space-y-8 py-16 px-24">

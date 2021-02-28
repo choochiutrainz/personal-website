@@ -8,7 +8,7 @@ const roguesquadron = () => {
                 <meta property="og:site_name" content="choochiutrain.com" />
                 <meta property="og:title" content="Keeping our troops safe from drone threats" />
                 <meta property="og:description" content="We're the US Military's sole team for providing drones to our troops and protecting them from drone threats. See how my passion for modern, quality tools helps keep this military startup stay ahead." />
-                <meta property="og:image" content="" />
+                <meta property="og:image" content="../thumbnail.png" />
                 <meta property="og:url" content="https://choochiutrain.com/rogue-squadron" />
             </Head>
             <div id="section1" className="flex flex-col justify-center items-center text-center bg-s31-blue space-y-8 py-16 px-24">

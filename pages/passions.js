@@ -7,8 +7,8 @@ const passions = () => {
                 <title>Passions - Wesley "Chewy" Chiu</title>
                 <meta property="og:site_name" content="choochiutrain.com" />
                 <meta property="og:title" content="My passions and personality" />
-                <meta property="og:description" content="Product Manager by day 🏢 Penetration Tester by night 🐱‍👤 Photographer capturing memories when the moment is just right 📷 Glimpse at the other side of my life and how I live every second of it." />
-                <meta property="og:image" content="" />
+                <meta property="og:description" content="Product Manager by day, Penetration Tester by night, Photographer capturing memories when the moment is just right. Glimpse at the other side of my life and how I live every second of it." />
+                <meta property="og:image" content="thumbnail.png" />
                 <meta property="og:url" content="https://choochiutrain.com/passions" />
             </Head>
             <div id="section1" className="flex flex-col justify-center items-center text-center bg-s31-blue space-y-8 py-16 px-40">

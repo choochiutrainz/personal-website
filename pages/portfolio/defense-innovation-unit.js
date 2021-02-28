@@ -8,7 +8,7 @@ const defenseinnovationunit = () => {
                 <meta property="og:site_name" content="choochiutrain.com" />
                 <meta property="og:title" content="Transforming military capabilities with commercial technologies" />
                 <meta property="og:description" content="Using drones to deliver lifesaving blood and medical supplies to the front line. See how I apply user-centered design and to transform the military's capabilities with commercial technology." />
-                <meta property="og:image" content="" />
+                <meta property="og:image" content="../thumbnail.png" />
                 <meta property="og:url" content="https://choochiutrain.com/defense-innovation-unit" />
             </Head>
             <div id="section1" className="flex flex-col justify-center items-center text-center bg-s31-blue space-y-8 py-16 px-24">

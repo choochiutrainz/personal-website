@@ -8,7 +8,7 @@ const resume = () => {
                 <meta property="og:site_name" content="choochiutrain.com" />
                 <meta property="og:title" content="Software Engineer and Penetration Tester by trade, Designer by heart, Product Manager by choice." />
                 <meta property="og:description" content="Take a deeper look at what I've accomplished and what I can bring to your team." />
-                <meta property="og:image" content="" />
+                <meta property="og:image" content="thumbnail.png" />
                 <meta property="og:url" content="https://choochiutrain.com/resume" />
             </Head>
             <div id="section1" className="grid grid-cols-4 p-40 pt-24 items-start w-screen bg-s31-blue">

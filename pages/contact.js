@@ -9,7 +9,7 @@ const contact = () => {
                 <meta property="og:site_name" content="choochiutrain.com" />
                 <meta property="og:title" content="Hire a Product Manager to broaden the art of possible" />
                 <meta property="og:description" content="All great things start as one small thing. Let's chat and make it happen 👋🏼" />
-                <meta property="og:image" content="" />
+                <meta property="og:image" content="thumbnail.png" />
                 <meta property="og:url" content="https://choochiutrain.com/contact" />
             </Head>
             <div id="section1" className="w-screen flex flex-col justify-center items-center bg-s31-blue space-y-10 py-16">

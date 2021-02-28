@@ -8,7 +8,7 @@ const portfolio = () => {
                 <meta property="og:site_name" content="choochiutrain.com" />
                 <meta property="og:title" content="Product Manager and Software Engineer Portfolio" />
                 <meta property="og:description" content="Here you'll find my most recent work. Check out what I've done and see what I can do for you.." />
-                <meta property="og:image" content="" />
+                <meta property="og:image" content="thumbnail.png" />
                 <meta property="og:url" content="https://choochiutrain.com/portfolio" />
             </Head>
             <div id="section1" className="flex flex-col justify-center items-center text-center bg-gray-200 space-y-8 py-16 px-24">

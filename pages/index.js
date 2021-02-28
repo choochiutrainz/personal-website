@@ -9,7 +9,7 @@ export default function Home({projects}) {
         <meta property="og:site_name" content="choochiutrain.com" />
         <meta property="og:title" content={`Hampton Product Manager & Software Engineer`} />
         <meta property="og:description" content="Pushing the art of possible for tech and software in the world's largest bureaucracy. See how my experience revolutionizing how the Air Force delivers software sets me apart from the others." />
-        <meta property="og:image" content="" />
+        <meta property="og:image" content="thumbnail.png" />
         <meta property="og:url" content="https://choochiutrain.com" />
       </Head>
       <div id="section1" className="flex flex-row justify-center bg-s31-blue space-x-20">
