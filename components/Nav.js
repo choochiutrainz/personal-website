@@ -17,7 +17,7 @@ const Nav = () => {
             case "/portfolio/defense-innovation-unit": return 'bg-defense-innovation-unit'
             case "/portfolio/streetcode-academy": return 'bg-streetcode-academy'
             case "/portfolio/darpa": return 'bg-darpa'
-            default: break
+            default: return 'bg-error'
         }
     }
 
@@ -115,6 +115,19 @@ const Nav = () => {
                             </svg>
                         </button>
                         <span className="text-2xl text-gray-100 font-bold px-4">Watch Video</span>
+                    </a>
+                </div>
+            default:
+                return <div className="absolute bottom-0">
+                    <h1 className="inline flex items-center text-5xl text-gray-100 font-bold leading-tight pb-6">Oops! I can't seem to find<br/>the page you're looking for.</h1>
+                    <p className="text-2xl text-gray-100 font-bold leading-normal pb-6">May I make it up to you<br/>and take you back to the home page?</p>
+                    <a href="/">
+                        <button className="inline-flex items-center bg-indigo-500 text-gray-100 font-bold py-2 px-4 my-4 rounded-md transition duration-300 ease-in-out hover:bg-indigo-600 transform hover:-translate-y-1 hover:scale-110">
+                            <span className="pr-1">I Guess</span>
+                            <svg className="w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                            </svg>
+                        </button>
                     </a>
                 </div>
         }
