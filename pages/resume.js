@@ -45,6 +45,7 @@ const resume = () => {
                         <p className="text-xl text-gray-300">Next.js / React.js</p>
                         <p className="text-xl text-gray-300">TypeScript / JavaScript</p>
                         <p className="text-xl text-gray-300">Google Apps Script</p>
+                        <p className="text-xl text-gray-300">Angular</p>
                         <p className="text-xl text-gray-300">Python</p>
                         <p className="text-xl text-gray-300">C / C++</p>
                         <p className="text-xl text-gray-300 pb-4">Go</p>

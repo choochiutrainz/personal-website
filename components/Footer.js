@@ -22,7 +22,7 @@ const Footer = () => {
                         Contact
                     </a>
                 </div>
-                <a className="text-gray-300 text-sm">Powered by <a className="underline transition duration-300 ease-in-out hover:text-gray-100" href="https://nextjs.org/">Next.js</a> and <a className="underline transition duration-300 ease-in-out hover:text-gray-100" href="https://tailwindcss.com/">Tailwind CSS.</a> Check out the code on <a className="underline transition duration-300 ease-in-out hover:text-gray-100" href="https://github.com/choochiutrainz/personal-website">my GitHub!</a></a>
+                <p className="text-center text-gray-300 text-sm">Powered by <a className="underline transition duration-300 ease-in-out hover:text-gray-100" href="https://nextjs.org/">Next.js</a> and <a className="underline transition duration-300 ease-in-out hover:text-gray-100" href="https://tailwindcss.com/">Tailwind CSS.</a> Check out the code on <a className="underline transition duration-300 ease-in-out hover:text-gray-100" href="https://github.com/choochiutrainz/personal-website">my GitHub!</a><br/>I appreciate any feedback to make this website better 🤗</p>
             </footer>
         </div>
     )
