@@ -8,6 +8,16 @@ module.exports = {
   exportPathMap: function () {
     return {
       "/": { page: "/" },
+      "/portfolio": { page: "/portfolio" },
+      "/passions": { page: "/passions" },
+      "/resume": { page: "/resume" },
+      "/contact": { page: "/contact" },
+      "/blog": { page: "/blog" },
+      "/portfolio/section-31": { page: "/portfolio/section-31" },
+      "/portfolio/rogue-squadron": { page: "/portfolio/rogue-squadron" },
+      "/portfolio/defense-innovation-unit": { page: "portfolio/defense-innovation-unit" },
+      "/portfolio/streetcode-academy": { page: "/portfolio/streetcode-academy" },
+      "/portfolio/darpa": { page: "/portfolio/darpa" },
     }
   },
   //assetPrefix: '',
