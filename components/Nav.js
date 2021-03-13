@@ -1,12 +1,8 @@
 import { useRouter } from 'next/router'
 
 export default function Nav({hidden}) {
+    //https://github.com/ckanissatran/test-commerce/blob/master/components/Header.js
     const router = useRouter()
-    
-    const getHidden = () => {
-        if (hidden) return 'hidden'
-        else return ''
-    }
 
     const getHeaderBackground = () => {
         switch (router.pathname) {
@@ -30,7 +26,7 @@ export default function Nav({hidden}) {
             case "/":
                 return <div>
                     <h1 className="text-5xl text-gray-100 font-bold leading-tight pb-6">Leading teams to <br/>build working software<br/>that people love.</h1>
-                    <p className="text-2xl text-gray-100 font-bold leading-normal">Welcome to choochiutrain.com,<br/>the Internet home for Wesley "Chewy" Chiu.</p>
+                    <p className="text-2xl text-gray-100 font-bold leading-normal">Welcome to choochiutrain.com,<br/>the Internet home for Wesley Chiu.</p>
                     <a href="/contact">
                         <button className="inline-flex items-center bg-indigo-500 text-gray-100 font-bold py-2 px-4 my-4 rounded-md transition duration-300 ease-in-out hover:bg-indigo-600 transform hover:-translate-y-1 hover:scale-110">
                             <span className="pr-1">Hire Me Today</span>
@@ -173,10 +169,10 @@ export default function Nav({hidden}) {
                     </a>
                 </div>
             </nav>
-            <div className="flex flex-row justify-start items-center mx-auto h-screen px-64 pb-16">
+            <div className="flex flex-row justify-start items-center mx-auto h-screen px-8 pb-2 sm:px-16 sm:pb-4 md:px-32 md:pb-8 lg:px-64 lg:pb-16">
                 {getHeaderText()}
             </div>
-            <div className="flex justify-center items-center">
+            <div className="hidden sm:flex justify-center items-center">
                 <a className="absolute bottom-0 pb-4" href="#section1">
                     <button className="bg-gray-300 text-indigo-600 opacity-80 rounded-full h-12 w-12 flex items-center justify-center transition duration-300 ease-in-out hover:bg-indigo-500 hover:text-gray-300 hover:opacity-75">
                         <svg className="animate-bounce w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">

@@ -11,35 +11,35 @@ const portfolio = () => {
                 <meta property="og:image" content="thumbnail.png" />
                 <meta property="og:url" content="https://choochiutrain.com/portfolio" />
             </Head>
-            <div id="section1" className="flex flex-col justify-center items-center text-center bg-gray-200 space-y-8 py-16 px-24">
+            <div id="section1" className="w-screen flex flex-col justify-center items-center text-center bg-gray-200 space-y-8 px-6 py-24 lg:px-24">
                 <h1 className="text-4xl font-bold">I'm always looking to solve the next big challenge.</h1>
-                <p className="text-2xl">I’ve centered my career around solving compelling problems and producing real, tangible impact for the business and the end user.<br/>There is no problem that I can't tackle. Here are some of my most recent projects that showcase how we broadened the art of possible.</p>
-                <div className="flex flex-row justify-center items-center space-x-20">
+                <p className="text-2xl">I’ve centered my career around solving compelling problems and producing real, tangible impact for the business and the end user. There is no problem that I can't tackle. Here are some of my most recent projects that showcase how we broadened the art of possible.</p>
+                <div className="lg:flex flex-row justify-center items-center space-x-20">
                     <a href="/portfolio/section-31">
-                        <img className="h-96 rounded-md transition duration-300 ease-in-out hover:opacity-75" src="wes-with-starfox-2.jpg" alt="Section 31 project" />
+                        <img className="w-96 sm:h-96 sm:w-auto rounded-md transition duration-300 ease-in-out hover:opacity-75" src="wes-with-starfox-2.jpg" alt="Section 31 project" />
                     </a>
                     <a href="/portfolio/rogue-squadron">
-                        <img className="h-96 rounded-md transition duration-300 ease-in-out hover:opacity-75" src="rogue-squadron.png" alt="Rogue Squadron project" />
+                        <img className="w-96 sm:h-96 sm:w-auto rounded-md transition duration-300 ease-in-out hover:opacity-75" src="rogue-squadron.png" alt="Rogue Squadron project" />
                     </a>
                     <a href="/portfolio/defense-innovation-unit">
-                        <img className="h-96 rounded-md transition duration-300 ease-in-out hover:opacity-75" src="zipline-team-1.png" alt="DIUx project" />
+                        <img className="w-96 sm:h-96 sm:w-auto rounded-md transition duration-300 ease-in-out hover:opacity-75" src="zipline-team-1.png" alt="DIUx project" />
                     </a>
                 </div>
             </div>
-            <div className="flex flex-col bg-white justify-center items-center p-24">
-                <h1 className="text-4xl font-bold">Check out some of the other projects that I've been part of.</h1>
-                <div className="flex flex-row justify-center items-center space-x-20 pt-16">
+            <div className="flex flex-col bg-white justify-center items-center px-6 sm:px-24 py-24">
+                <h1 className="text-center text-4xl font-bold">Check out some of the other projects that I have been part of.</h1>
+                <div className="lg:flex flex-row justify-center items-center space-x-20 pt-16">
                     <a href="/portfolio/streetcode-academy">
-                        <img className="h-96 rounded-md transition duration-300 ease-in-out hover:opacity-75" src="streetcode-team-1.png" alt="Section 31 project" />
+                        <img className="w-96 sm:h-96 sm:w-auto rounded-md transition duration-300 ease-in-out hover:opacity-75" src="streetcode-team-1.png" alt="Section 31 project" />
                     </a>
                     <a href="/portfolio/darpa">
-                        <img className="h-96 rounded-md transition duration-300 ease-in-out hover:opacity-75" src="wes-holding-uas.jpg" alt="Rogue Squadron project" />
+                        <img className="w-96 sm:h-96 sm:w-auto rounded-md transition duration-300 ease-in-out hover:opacity-75" src="wes-holding-uas.jpg" alt="Rogue Squadron project" />
                     </a>
                 </div>
             </div>
-            <div className="bg-indigo-100 flex flex-col space-y-8 py-10 justify-center items-center">
-                <h1 className="text-4xl font-bold">{`What I've done & what I can do`}</h1>
-                <h1 className="text-2xl">Feel free to dive deeper into what I've accomplished and see what I can do for you and your team.</h1>
+            <div className="bg-indigo-100 flex flex-col space-y-8 px-6 py-10 justify-center items-center">
+                <h1 className="text-4xl font-bold">What I've done<br className="sm:hidden"/> and what I can do</h1>
+                <h1 className="text-2xl">Feel free to dive deeper into what I've accomplished and see what I can do<br className="sm:hidden"/> for you and your team.</h1>
                 <a href="/resume">
                     <button className="inline-flex items-center bg-indigo-500 text-gray-100 font-bold py-2 px-4 rounded-md transition duration-300 ease-in-out hover:bg-indigo-600 transform hover:-translate-y-1 hover:scale-110">
                     <span className="pr-1">View My Resume</span>

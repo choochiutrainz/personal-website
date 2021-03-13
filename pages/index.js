@@ -12,22 +12,22 @@ export default function Home({projects}) {
         <meta property="og:image" content="thumbnail.png" />
         <meta property="og:url" content="https://choochiutrain.com" />
       </Head>
-      <div id="section1" className="flex flex-row justify-center bg-s31-blue space-x-20">
-        <img className="h-96 text-gray-100 m-40 mr-0 rounded-md" src="personal-portrait.png" alt="Portrait of me" />
+      <div id="section1" className="lg:flex flex-row justify-center items-center text-center lg:text-left bg-s31-blue p-16 lg:px-40 lg:py-20 lg:space-x-20 space-y-10 lg:space-y-0">
+        <img className="w-96 sm:h-96 sm:w-auto text-gray-100 rounded-md" src="personal-portrait.png" alt="Wesley Portrait" />
         <div className="flex flex-col justify-center space-y-8">
-          <h1 className="text-4xl text-yellow-300 mr-40">My passion and focus is leading<br/>agile software product teams.</h1>
-          <p className="text-2xl text-gray-100 leading-normal mr-40">I strive to build and lead diverse, collaborative, and kick-ass teams that deliver a working, reliable product that users love. If you want to learn more about working together, <a className="text-yellow-300 transition duration-300 ease-in-out hover:text-gray-100 hover:underline" href="/contact">contact me</a> today!</p>
+          <h1 className="text-4xl text-yellow-300">My passion and focus is leading agile software product teams.</h1>
+          <p className="text-2xl text-gray-100">I strive to build and lead diverse, collaborative, and kick-ass teams that deliver a working, reliable product that users love. If you want to learn more about working together, <a className="text-yellow-300 transition duration-300 ease-in-out hover:text-gray-100 hover:underline" href="/contact">contact me</a> today!</p>
         </div>
       </div>
       <div className="flex flex-col bg-gray-200 justify-center items-center pb-16">
         <h1 className="text-center w-screen text-4xl p-14 font-bold">I also do portrait photography. And I like to hack things.</h1>
-        <div className="flex flex-row space-x-20 pb-14">
-          <div className="flex flex-col space-y-8 items-center pl-24 pr-8">
-            <img className="h-96 rounded-md" src="wes-at-sans.jpg" alt="Portrait of me" />
+        <div className="lg:flex flex-row lg:space-x-20 px-14 pb-14 space-y-8 lg:space-y-0">
+          <div className="flex flex-col space-y-8 items-center">
+            <img className="w-96 sm:h-96 sm:w-auto rounded-md" src="wes-at-sans.jpg" alt="Wesley hacking" />
             <p className="text-center text-xl">I am a U.S. Air Force Cyberwarfare Officer by trade. I get a good kick out of penetration testing my home devices and participating in Capture-The-Flag events to test my skills.</p>
           </div>
-          <div className="flex flex-col space-y-8 items-center pr-24 pl-8">
-            <img className="h-96 rounded-md" src="wes-photographer.jpg" alt="Portrait of me" />
+          <div className="flex flex-col space-y-8 items-center">
+            <img className="w-96 sm:h-96 sm:w-auto rounded-md" src="wes-photographer.jpg" alt="Wesley photographing" />
             <p className="text-center text-xl">I love capturing priceless moments on my camera and sharing the stories of amazing people that I meet around the world. I’d be honored to photograph your special occasion.</p>
           </div>
         </div>
@@ -42,16 +42,16 @@ export default function Home({projects}) {
       </div>
       <div className="flex flex-col space-y-8 py-16 justify-center items-center bg-white">
         <h1 className="text-center w-screen text-4xl font-bold">My Projects</h1>
-        <p className="text-center text-xl">It's a wonderful opportunity to work with people who are so passionate about their own craft<br/>and to enable them to achieve new heights. Check out my latest projects that I've been working on.</p>
-        <div className="flex flex-row justify-center items-center space-x-20">
+        <p className="text-center text-xl px-16 sm:px-32 md:px-40 lg:px-80">It's a wonderful opportunity to work with people who are so passionate about their own craft and to enable them to achieve new heights. Check out my latest projects that I've been working on.</p>
+        <div className="lg:flex flex-row justify-center items-center space-x-20">
           <a href="/portfolio/section-31">
-            <img className="h-96 rounded-md transition duration-300 ease-in-out hover:opacity-75" src="wes-with-starfox-2.jpg" alt="Section 31 project" />
+            <img className="w-96 sm:h-96 sm:w-auto rounded-md transition duration-300 ease-in-out hover:opacity-75" src="wes-with-starfox-2.jpg" alt="Section 31 project" />
           </a>
           <a className="pt-24" href="/portfolio/rogue-squadron">
-            <img className="h-96 rounded-md transition duration-300 ease-in-out hover:opacity-75" src="rogue-squadron.png" alt="Rogue Squadron project" />
+            <img className="w-96 sm:h-96 sm:w-auto rounded-md transition duration-300 ease-in-out hover:opacity-75" src="rogue-squadron.png" alt="Rogue Squadron project" />
           </a>
           <a href="/portfolio/defense-innovation-unit">
-            <img className="h-96 rounded-md transition duration-300 ease-in-out hover:opacity-75" src="zipline-team-1.png" alt="DIUx project" />
+            <img className="w-96 sm:h-96 sm:w-auto rounded-md transition duration-300 ease-in-out hover:opacity-75" src="zipline-team-1.png" alt="DIUx project" />
           </a>
         </div>
         <a className="pt-12" href="/portfolio">
@@ -64,8 +64,8 @@ export default function Home({projects}) {
         </a>
       </div>
       <div className="bg-indigo-100 flex flex-col space-y-8 py-10 justify-center items-center">
-        <h1 className="text-center w-screen text-2xl font-bold">Product Manager | Penetration Tester | Portrait Photographer</h1>
-        <h1 className="text-center w-screen text-4xl font-bold">Ready to build the next great thing together?</h1>
+        <h1 className="text-center w-screen text-2xl font-bold">Product Manager <br className="sm:hidden"/><span className="text-transparent sm:text-black">|</span> Penetration Tester | Portrait Photographer</h1>
+        <h1 className="text-center w-screen text-4xl font-bold">Ready to build the<br className="sm:hidden"/> next great thing together?</h1>
         <a href="/contact">
           <button className="inline-flex items-center bg-indigo-500 text-gray-100 font-bold py-2 px-4 rounded-md transition duration-300 ease-in-out hover:bg-indigo-600 transform hover:-translate-y-1 hover:scale-110">
             <span className="pr-1">Contact Me Today</span>
