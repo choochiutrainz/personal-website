@@ -1,7 +1,6 @@
 import Head from 'next/head'
-import { Formik } from 'formik'
 
-const contact = () => {
+export default function contact() {
     // https://tailwindcomponents.com/component/working-contact-form-no-backend
     return (
         <div>
@@ -51,5 +50,3 @@ const contact = () => {
         </div>
     )
 }
-
-export default contact

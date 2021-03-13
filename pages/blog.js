@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-const blog = () => {
+export default function blog() {
     return (
         <div>
             <Head>
@@ -17,5 +17,3 @@ const blog = () => {
         </div>
     )
 }
-
-export default blog

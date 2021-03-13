@@ -1,8 +1,14 @@
 import { useRouter } from 'next/router'
 
-export default function Nav({hidden}) {
-    //https://github.com/ckanissatran/test-commerce/blob/master/components/Header.js
+export default function Nav({hidden}) {    
+    //https://nextjs-rouge-five-39.vercel.app/merch
+    //https://github.com/ckanissatran/test-commerce/blob/master/components/Nav.js
     const router = useRouter()
+    
+    const getHidden = () => {
+        if (hidden) return 'hidden'
+        else return ''
+    }
 
     const getHeaderBackground = () => {
         switch (router.pathname) {
@@ -141,7 +147,7 @@ export default function Nav({hidden}) {
                 </a>
                 <div className="flex justify-end flex-grow md:hidden">
                     <button>
-                        <svg className="w-12 h-12" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <svg className="w-12 h-12 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
                         </svg>
                     </button>

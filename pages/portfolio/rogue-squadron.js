@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-const roguesquadron = () => {
+export default function roguesquadron() {
     return (
         <div>
             <Head>
@@ -40,5 +40,3 @@ const roguesquadron = () => {
         </div>
     )
 }
-
-export default roguesquadron

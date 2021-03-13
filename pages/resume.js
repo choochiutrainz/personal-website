@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-const resume = () => {
+export default function resume() {
     return (
         <div>
             <Head>
@@ -123,5 +123,3 @@ const resume = () => {
         </div>
     )
 }
-
-export default resume

@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-const passions = () => {
+export default function passions() {
     return (
         <div>
             <Head>
@@ -45,5 +45,3 @@ const passions = () => {
         </div>
     )
 }
-
-export default passions

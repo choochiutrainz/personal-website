@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-const section31 = () => {
+export default function section31() {
     return (
         <div>
             <Head>
@@ -45,5 +45,3 @@ const section31 = () => {
         </div>
     )
 }
-
-export default section31

@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-const defenseinnovationunit = () => {
+export default function defenseinnovationunit() {
     return (
         <div>
             <Head>
@@ -43,5 +43,3 @@ const defenseinnovationunit = () => {
         </div>
     )
 }
-
-export default defenseinnovationunit

@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-const streetcodeacademy = () => {
+export default function streetcodeacademy() {
     return (
         <div>
             <Head>
@@ -45,5 +45,3 @@ const streetcodeacademy = () => {
         </div>
     )
 }
-
-export default streetcodeacademy

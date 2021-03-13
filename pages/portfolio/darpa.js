@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-const darpa = () => {
+export default function darpa() {
     return (
         <div>
             <Head>
@@ -54,5 +54,3 @@ const darpa = () => {
         </div>
     )
 }
-
-export default darpa

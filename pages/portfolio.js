@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-const portfolio = () => {
+export default function portfolio() {
     return (
         <div>
             <Head>
@@ -52,5 +52,3 @@ const portfolio = () => {
         </div>
     )
 }
-
-export default portfolio
