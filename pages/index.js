@@ -15,7 +15,7 @@ export default function Home({projects}) {
       <div id="section1" className="lg:flex flex-row justify-center items-center text-center lg:text-left bg-s31-blue p-16 lg:px-40 lg:py-20 lg:space-x-20 space-y-10 lg:space-y-0">
         <img className="w-96 sm:h-96 sm:w-auto text-gray-100 rounded-md" src="personal-portrait.png" alt="Wesley Portrait" />
         <div className="flex flex-col justify-center space-y-8">
-          <h1 className="text-4xl text-yellow-300">My passion and focus is leading agile software product teams.</h1>
+          <h1 className="text-4xl text-yellow-300">My passion and focus is leading software product teams.</h1>
           <p className="text-2xl text-gray-100">I strive to build and lead diverse, collaborative, and kick-ass teams that deliver a working, reliable product that users love. If you want to learn more about working together, <a className="text-yellow-300 transition duration-300 ease-in-out hover:text-gray-100 hover:underline" href="/contact">contact me</a> today!</p>
         </div>
       </div>
