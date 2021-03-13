@@ -5,7 +5,7 @@ const contact = () => {
     return (
         <div>
             <Head>
-                <title>Contact Me - Wesley "Chewy" Chiu</title>
+                <title>Contact Me | Wesley Chiu</title>
                 <meta property="og:site_name" content="choochiutrain.com" />
                 <meta property="og:title" content="Hire a Product Manager to broaden the art of possible" />
                 <meta property="og:description" content="All great things start as one small thing. Let's chat and make it happen 👋🏼" />

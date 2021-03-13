@@ -4,7 +4,7 @@ const portfolio = () => {
     return (
         <div>
             <Head>
-                <title>Portfolio - Wesley "Chewy" Chiu</title>
+                <title>Portfolio | Wesley Chiu</title>
                 <meta property="og:site_name" content="choochiutrain.com" />
                 <meta property="og:title" content="Product Manager and Software Engineer Portfolio" />
                 <meta property="og:description" content="Here you'll find my most recent work. Check out what I've done and see what I can do for you.." />
@@ -13,7 +13,7 @@ const portfolio = () => {
             </Head>
             <div id="section1" className="flex flex-col justify-center items-center text-center bg-gray-200 space-y-8 py-16 px-24">
                 <h1 className="text-4xl font-bold">I'm always looking to solve the next big challenge.</h1>
-                <p className="text-2xl">I’ve centered my career around solving compelling problems and producing real, tangible impact for the business and the end user. There is no problem that I can't tackle. Here are some of my most recent projects that showcase how we broadened the art of possible.</p>
+                <p className="text-2xl">I’ve centered my career around solving compelling problems and producing real, tangible impact for the business and the end user.<br/>There is no problem that I can't tackle. Here are some of my most recent projects that showcase how we broadened the art of possible.</p>
                 <div className="flex flex-row justify-center items-center space-x-20">
                     <a href="/portfolio/section-31">
                         <img className="h-96 rounded-md transition duration-300 ease-in-out hover:opacity-75" src="wes-with-starfox-2.jpg" alt="Section 31 project" />

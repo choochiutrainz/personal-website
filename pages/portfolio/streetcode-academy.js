@@ -4,7 +4,7 @@ const streetcodeacademy = () => {
     return (
         <div>
             <Head>
-                <title>Streetcode Academy - Wesley "Chewy" Chiu</title>
+                <title>Streetcode Academy | Wesley Chiu</title>
                 <meta property="og:site_name" content="choochiutrain.com" />
                 <meta property="og:title" content="Promoting and practicing allyship with Streetcode Academy" />
                 <meta property="og:description" content="Empowering underprivileged communities to fulfill their full potential. See how my commitment to allyship is helping budding engineers succeed in the tech industry." />

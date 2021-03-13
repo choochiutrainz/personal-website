@@ -4,14 +4,14 @@ const resume = () => {
     return (
         <div>
             <Head>
-                <title>Resume - Wesley "Chewy" Chiu</title>
+                <title>Resume | Wesley Chiu</title>
                 <meta property="og:site_name" content="choochiutrain.com" />
                 <meta property="og:title" content="Software Engineer and Penetration Tester by trade, Designer by heart, Product Manager by choice." />
                 <meta property="og:description" content="Take a deeper look at what I've accomplished and what I can bring to your team." />
                 <meta property="og:image" content="thumbnail.png" />
                 <meta property="og:url" content="https://choochiutrain.com/resume" />
             </Head>
-            <div id="section1" className="grid grid-cols-4 p-40 pt-24 items-start w-screen bg-s31-blue">
+            <div id="section1" className="grid grid-cols-4 p-40 pt-24 gap-8 items-start w-screen bg-s31-blue">
                 <img className="max-h-96 text-gray-100 rounded-md" src="Official-Photo-20210217.jpg" alt="Portrait of me" />
                 <div className="col-span-3 flex flex-col justify-center space-y-4">
                     <h1 className="text-4xl text-yellow-300 uppercase font-bold">Wesley "Chewy" Chiu</h1>
@@ -29,7 +29,7 @@ const resume = () => {
                     <div className="py-4 space-y-4">
                         <h2 className="text-2xl text-gray-100 font-bold">Software Engineering</h2>
                         <p className="text-xl text-gray-300">Extreme Programming</p>
-                        <p className="text-xl text-gray-300">Continous Integration and Delivery</p>
+                        <p className="text-xl text-gray-300">{`Continous Integration & Delivery`}</p>
                         <p className="text-xl text-gray-300 pb-4">Test Driven Development</p>
                     </div>
                     <div className="py-4 space-y-4">
@@ -67,11 +67,11 @@ const resume = () => {
                 <div className="col-span-3 flex flex-col justify-start py-14">
                     <h1 className="text-4xl text-yellow-300 uppercase font-bold pb-4">Experience</h1>
                     <div className="py-4 space-y-4">
-                        <h2 className="text-2xl text-gray-100 font-bold">DEPUTY FLIGHT COMMANDER <span className="font-thin">||</span> 17th Intelligence Squadron <span className="font-thin">||</span> Langley AFB <span className="font-thin">||</span> Feb '20 - Present</h2>
+                        <h2 className="text-2xl text-gray-100 font-bold">DEPUTY FLIGHT COMMANDER <span className="font-thin">||</span> 17th Intelligence Squadron - U.S. Air Force <span className="font-thin">||</span> Hampton <span className="font-thin">||</span> Feb '20 - Present</h2>
                         <p className="text-xl text-gray-300">Looking to modernize tools and software used by the intelligence and cyber warfare communities to maximize mission effectivness and minimize productivity waste. Consulted other software development units on applying agile principles and fundamentals to their unique business problem set. Facilitated multiple workshops to use agile principles to better collaborate, experiment, and iterate on ideas and processes.</p>
                     </div>
                     <div className="py-4 space-y-4">
-                        <h2 className="pt-6 text-2xl text-gray-100 font-bold">PRODUCT MANAGER <span className="font-thin">||</span> Section 31 <span className="font-thin">||</span> Santa Monica <span className="font-thin">||</span> May '19 - Feb '20</h2>
+                        <h2 className="pt-6 text-2xl text-gray-100 font-bold">PRODUCT MANAGER <span className="font-thin">||</span> Section 31 - U.S. Space Force <span className="font-thin">||</span> Santa Monica <span className="font-thin">||</span> May '19 - Feb '20</h2>
                         <p className="text-xl text-gray-300">Led the development and delivery of a new RF Deconfliction analysis tool to replace outdated legacy software. Replaced manual 3-day process to 3-min across multiple military branches and national intelligence agencies. Prioritized unique mission needs between a dozen units and their unique value streams. Implemented best practices to encourage product context sharing between all product teams in this new U.S. Space Force start up.</p>
                     </div>
                     <div className="py-4 space-y-4">
@@ -79,7 +79,7 @@ const resume = () => {
                         <p className="text-xl text-gray-300">Developed and deployed new airspace situational awareness tool to detect multiple types of small commercial drones realtime. Balanced unique mission and legal needs between users from NORAD, U.S. Secret Service, and FBI. First learned and applied agile principles with XP methodology. Assisted in penetration testing and hardening commercial drones for DoD use.</p>
                     </div>
                     <div className="py-4 space-y-4">
-                        <h2 className="pt-6 text-2xl text-gray-100 font-bold">PRODUCT MANAGER <span className="font-thin">||</span> Defense Innovation Unit <span className="font-thin">||</span> Mountain View <span className="font-thin">||</span> Feb '18 - Nov '18</h2>
+                        <h2 className="pt-6 text-2xl text-gray-100 font-bold">PRODUCT MANAGER <span className="font-thin">||</span> Defense Innovation Unit Experimental <span className="font-thin">||</span> Mountain View <span className="font-thin">||</span> Feb '18 - Nov '18</h2>
                         <p className="text-xl text-gray-300">Led multiple multi-million dollar pathfinder projects to rapidly apply commercial innovations to DoD problems. Adapted commercial solutions to unique warfighter needs with a focus on user centered design. Enabled a community of non-traditional start ups and businesses to sign rapid prototyping contracts with military entities within 60 days on average after project initiation.</p>
                     </div>
                     <div className="py-4 space-y-4">

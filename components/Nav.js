@@ -1,9 +1,13 @@
-import Link from 'next/link'
 import { useRouter } from 'next/router'
 
-const Nav = () => {
+export default function Nav({hidden}) {
     const router = useRouter()
     
+    const getHidden = () => {
+        if (hidden) return 'hidden'
+        else return ''
+    }
+
     const getHeaderBackground = () => {
         switch (router.pathname) {
             case "/": return 'bg-home'
@@ -134,24 +138,31 @@ const Nav = () => {
     }
 
     return (
-        <div className={`h-screen w-full bg-cover bg-center ${getHeaderBackground()}`}>
-            <nav className="flex flex-wrap bg-gray-50 bg-opacity-60 items-center lg:py-0 py-2 lg:px-16 px-6">
+        <div className={`h-screen w-screen bg-cover bg-center ${getHeaderBackground()}`}>
+            <nav className="bg-gray-50 bg-opacity-60 flex items-center px-12 py-2 lg:px-32 lg:py-0">
                 <a href="/">
-                    <img className="lg:px-16 px-6 py-3 h-20 transition duration-300 ease-in-out hover:opacity-75 transform hover:scale-110" src="chewy-logo.png" alt="Home" />
+                    <img className="py-3 h-20 transition duration-300 ease-in-out hover:opacity-75 transform hover:scale-110" src="chewy-logo.png" alt="Home" />
                 </a>
-                <div className="flex justify-center flex-grow">
-                    <a className="px-8 py-2 uppercase font-bold leading-snug text-lg text-black transition duration-300 ease-in-out hover:text-indigo-600 transform hover:scale-110" href="/portfolio">
+                <div className="flex justify-end flex-grow md:hidden">
+                    <button>
+                        <svg className="w-12 h-12" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+                <div className="hidden md:flex md:space-x-8 lg:space-x-20 justify-center flex-grow">
+                    <a className="uppercase font-bold text-lg text-black transition duration-300 ease-in-out hover:text-indigo-600 transform hover:scale-110" href="/portfolio">
                         Portfolio
                     </a>
-                    <a className="px-8 py-2 uppercase font-bold leading-snug text-lg text-black transition duration-300 ease-in-out hover:text-indigo-600 transform hover:scale-110" href="/passions">
+                    <a className="uppercase font-bold text-lg text-black transition duration-300 ease-in-out hover:text-indigo-600 transform hover:scale-110" href="/passions">
                         Passions
                     </a>
-                    <a className="px-8 py-2 uppercase font-bold leading-snug text-lg text-black transition duration-300 ease-in-out hover:text-indigo-600 transform hover:scale-110" href="/resume">
+                    <a className="uppercase font-bold text-lg text-black transition duration-300 ease-in-out hover:text-indigo-600 transform hover:scale-110" href="/resume">
                         Resume
                     </a>
                 </div>
-                <div className="flex pr-16 justify-end items-center">
-                    <a className="px-3 py-2 uppercase font-bold leading-snug text-lg text-black transition duration-300 ease-in-out hover:text-indigo-600 transform hover:scale-110" href="/contact">
+                <div className="hidden md:flex justify-end items-center md:space-x-2">
+                    <a className="uppercase font-bold text-lg text-black transition duration-300 ease-in-out hover:text-indigo-600 transform hover:scale-110" href="/contact">
                         Contact
                     </a>
                     <a href="https://github.com/choochiutrainz">
@@ -177,5 +188,3 @@ const Nav = () => {
         </div>
     )
 }
-
-export default Nav

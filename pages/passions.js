@@ -4,7 +4,7 @@ const passions = () => {
     return (
         <div>
             <Head>
-                <title>Passions - Wesley "Chewy" Chiu</title>
+                <title>Passions | Wesley Chiu</title>
                 <meta property="og:site_name" content="choochiutrain.com" />
                 <meta property="og:title" content="My passions and personality" />
                 <meta property="og:description" content="Product Manager by day, Penetration Tester by night, Photographer capturing memories when the moment is just right. Glimpse at the other side of my life and how I live every second of it." />

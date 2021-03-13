@@ -4,7 +4,7 @@ const blog = () => {
     return (
         <div>
             <Head>
-                <title>Passions - Wesley "Chewy" Chiu</title>
+                <title>Blog | Wesley Chiu</title>
                 <meta property="og:site_name" content="choochiutrain.com" />
                 <meta property="og:title" content="Product Management Tips and Insights" />
                 <meta property="og:description" content="Sharing my thoughts and philosophy as I go through my learning journey. Let's have a conversation ☕" />

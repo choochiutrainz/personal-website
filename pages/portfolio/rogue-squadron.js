@@ -4,7 +4,7 @@ const roguesquadron = () => {
     return (
         <div>
             <Head>
-                <title>Rogue Squadron - Wesley "Chewy" Chiu</title>
+                <title>Rogue Squadron | Wesley Chiu</title>
                 <meta property="og:site_name" content="choochiutrain.com" />
                 <meta property="og:title" content="Keeping our troops safe from drone threats" />
                 <meta property="og:description" content="We're the US Military's sole team for providing drones to our troops and protecting them from drone threats. See how my passion for modern, quality tools helps keep this military startup stay ahead." />

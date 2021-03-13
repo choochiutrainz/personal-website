@@ -4,11 +4,11 @@ export default function Home({projects}) {
   return (
     <div>
       <Head>
-        <title>Home - Wesley "Chewy" Chiu</title>
+        <title>Home | Wesley Chiu</title>
         <meta name='keywords' content='web development, agile, XP, air force, product manager, pm' />
         <meta property="og:site_name" content="choochiutrain.com" />
         <meta property="og:title" content={`Air Force Product Manager & Software Engineer`} />
-        <meta property="og:description" content="Pushing the art of possible for tech and software in the world's largest bureaucracy. See how my experience revolutionizing how the Air Force delivers software sets me apart from the others." />
+        <meta property="og:description" content="Pushing the art of possible for tech and software in the world's largest bureaucracy. See how my experience in revolutionizing how the Air Force delivers software sets me apart from the others." />
         <meta property="og:image" content="thumbnail.png" />
         <meta property="og:url" content="https://choochiutrain.com" />
       </Head>
