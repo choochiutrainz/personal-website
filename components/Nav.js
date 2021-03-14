@@ -1,10 +1,11 @@
+import React from 'react'
 import { useRouter } from 'next/router'
 
-export default function Nav({hidden}) {    
-    //https://nextjs-rouge-five-39.vercel.app/merch
-    //https://github.com/ckanissatran/test-commerce/blob/master/components/Nav.js
+export default function Nav() {
     const router = useRouter()
-    
+
+    const [hidden, toggleHidden] = React.useState(true)
+
     const getHidden = () => {
         if (hidden) return 'hidden'
         else return ''
@@ -145,13 +146,7 @@ export default function Nav({hidden}) {
                 <a href="/">
                     <img className="py-3 h-20 transition duration-300 ease-in-out hover:opacity-75 transform hover:scale-110" src="chewy-logo.png" alt="Home" />
                 </a>
-                <div className="flex justify-end flex-grow md:hidden">
-                    <button>
-                        <svg className="w-12 h-12 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-                        </svg>
-                    </button>
-                </div>
+
                 <div className="hidden md:flex md:space-x-8 lg:space-x-20 justify-center flex-grow">
                     <a className="uppercase font-bold text-lg text-black transition duration-300 ease-in-out hover:text-indigo-600 transform hover:scale-110" href="/portfolio">
                         Portfolio
@@ -168,13 +163,42 @@ export default function Nav({hidden}) {
                         Contact
                     </a>
                     <a href="https://github.com/choochiutrainz">
-                        <img className="lg:px-2 py-3 h-15 transition duration-300 ease-in-out hover:opacity-50 transform hover:scale-110" src="github-logo.png" alt="GitHub" />
+                        <img className="lg:px-2 py-3 transition duration-300 ease-in-out hover:opacity-50 transform hover:scale-110" src="github-logo.png" alt="GitHub" />
                     </a>
                     <a href="https://www.linkedin.com/in/choochiutrain">
-                        <img className="lg:px-2 py-3 h-15 transition duration-300 ease-in-out hover:opacity-75 transform hover:scale-110" src="linkedin-logo.png" alt="LinkedIn" />
+                        <img className="lg:px-2 py-3 transition duration-300 ease-in-out hover:opacity-75 transform hover:scale-110" src="linkedin-logo.png" alt="LinkedIn" />
                     </a>
                 </div>
+                <div className="flex justify-end flex-grow md:hidden">
+                    <button onClick={() => toggleHidden(!hidden)}>
+                        <svg className="w-12 h-12 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
             </nav>
+            <div className={`${getHidden()} text-black flex flex-col h-screen items-end space-y-5 p-14 bg-gray-50 bg-opacity-60`}>
+                <a className="uppercase font-bold text-2xl text-black" href="/portfolio">
+                    Portfolio
+                </a>
+                <a className="uppercase font-bold text-2xl text-black" href="/passions">
+                    Passions
+                </a>
+                <a className="uppercase font-bold text-2xl text-black" href="/resume">
+                    Resume
+                </a>
+                <a className="uppercase font-bold text-2xl text-black" href="/contact">
+                    Contact
+                </a>
+                <div className="flex flex-row space-x-5">
+                    <a href="https://github.com/choochiutrainz">
+                        <img className="lg:px-2 py-3 h-16" src="github-logo.png" alt="GitHub" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/choochiutrain">
+                        <img className="lg:px-2 py-3 h-16" src="linkedin-logo.png" alt="LinkedIn" />
+                    </a>
+                </div>
+            </div>
             <div className="flex flex-row justify-start items-center mx-auto h-screen px-8 pb-2 sm:px-16 sm:pb-4 md:px-32 md:pb-8 lg:px-64 lg:pb-16">
                 {getHeaderText()}
             </div>
