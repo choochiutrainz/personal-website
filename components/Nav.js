@@ -11,6 +11,11 @@ export default function Nav() {
         else return ''
     }
 
+    const getMenuButton = () => {
+        if (hidden) return 'M4 6h16M4 12h16M4 18h16'
+        else return 'M6 18L18 6M6 6l12 12'
+    }
+
     const getHeaderBackground = () => {
         switch (router.pathname) {
             case "/": return 'bg-home'
@@ -170,14 +175,15 @@ export default function Nav() {
                     </a>
                 </div>
                 <div className="flex justify-end flex-grow md:hidden">
-                    <button onClick={() => toggleHidden(!hidden)}>
+                    <button onClick={() => toggleHidden(!hidden)} >
                         <svg className="w-12 h-12 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d={`${getMenuButton()}`} />
                         </svg>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d={`${getMenuButton()}`} />
                     </button>
                 </div>
             </nav>
-            <div className={`${getHidden()} text-black flex flex-col h-screen items-end space-y-5 p-14 bg-gray-50 bg-opacity-60`}>
+            <div className={`${getHidden()} text-black flex flex-col h-screen items-end space-y-5 p-12 bg-gray-50 bg-opacity-60`}>
                 <a className="uppercase font-bold text-2xl text-black" href="/portfolio">
                     Portfolio
                 </a>
