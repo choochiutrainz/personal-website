@@ -47,8 +47,8 @@ export default function Nav() {
         switch (router.pathname) {
             case "/":
                 return <div>
-                    <h1 className="text-5xl text-gray-100 font-bold leading-tight pb-6">Leading teams to <br/>build working software<br/>that people love.</h1>
-                    <p className="text-2xl text-gray-100 font-bold leading-normal">Welcome to choochiutrain.com,<br/>the Internet home for Wesley Chiu.</p>
+                    <h1 className="text-5xl text-gray-100 font-bold leading-tight pb-6">Product Manager.</h1>
+                    <p className="text-2xl text-gray-100 font-bold leading-tight pb-4">Leading teams to build working software that people love.</p>
                     <a href="/contact">
                         <button className="inline-flex items-center bg-indigo-500 text-gray-100 font-bold py-2 px-4 my-4 rounded-md transition duration-300 ease-in-out hover:bg-indigo-600 transform hover:-translate-y-1 hover:scale-110">
                             <span className="pr-1">Hire Me Today</span>
@@ -58,11 +58,11 @@ export default function Nav() {
                         </button>
                     </a>
                 </div>
-            case "/portfolio": return <div><h1 className="text-5xl text-gray-100 font-bold leading-tight pb-6">See what you can<br/>expect from me.</h1></div>
-            case "/passions": return <div><h1 className="text-5xl text-gray-100 font-bold leading-tight pb-6">Check out my<br/>Passions and Hobbies.</h1></div>
+            case "/portfolio": return <div><h1 className="text-5xl text-gray-100 font-bold leading-tight pb-6">What you can<br/>expect from me.</h1></div>
+            case "/passions": return <div><h1 className="text-5xl text-gray-100 font-bold leading-tight pb-6">{`My Passions & Hobbies.`}</h1></div>
             case "/resume": 
                 return <div>
-                    <h1 className="text-5xl text-gray-100 font-bold leading-tight pb-6">Learn more about<br/>My Story.</h1>
+                    <h1 className="text-5xl text-gray-100 font-bold leading-tight pb-6">Learn More<br/>about My Story.</h1>
                     <a href="https://drive.google.com/file/d/1t7xzj6kOU7h9LV7isqMURVoI_PXs3Oav/view">
                         <button className="inline-flex items-center bg-indigo-500 text-gray-100 font-bold py-2 px-4 my-4 rounded-md transition duration-300 ease-in-out hover:bg-indigo-600 transform hover:-translate-y-1 hover:scale-110">
                             <span className="pr-1">Download Resume</span>
@@ -73,7 +73,7 @@ export default function Nav() {
                     </a>
                 </div>
             case "/contact": return <div><h1 className="text-5xl text-gray-100 font-bold leading-tight pb-6">Let's connect today!</h1></div>
-            case "/blog": return <div><h1 className="text-5xl text-gray-100 font-bold leading-tight pb-6">Get to know my<br/>thoughts and philosophy.</h1></div>
+            case "/blog": return <div><h1 className="text-5xl text-gray-100 font-bold leading-tight pb-6">{`My thoughts & philosophy.`}</h1></div>
             case "/portfolio/section-31":
                 return <div>
                     <h1 className="inline flex items-center text-5xl text-gray-100 font-bold leading-tight pb-6"><img className="h-20 pr-4" src="../starfox-logo.png"></img>SureFire</h1>
@@ -161,7 +161,6 @@ export default function Nav() {
                 <a href="/">
                     <img className="py-3 h-20 transition duration-300 ease-in-out hover:opacity-75 transform hover:scale-110" src="chewy-logo.png" alt="Home" />
                 </a>
-
                 <div className="hidden md:flex md:space-x-8 lg:space-x-20 justify-center flex-grow">
                     <a className="uppercase font-bold text-lg text-black transition duration-300 ease-in-out hover:text-indigo-600 transform hover:scale-110" href="/portfolio">
                         Portfolio
@@ -192,7 +191,6 @@ export default function Nav() {
                             <span className={`rounded-lg block h-1 w-9 bg-current transform transition duration-500 ease-in-out ${transformMenuButtonMiddle()}`}></span>
                             <span className={`rounded-lg block h-1 w-9 bg-current transform transition duration-500 ease-in-out ${transformMenuButtonBottom()}`}></span>
                         </div>
-                        
                     </button>
                 </div>
             </nav>

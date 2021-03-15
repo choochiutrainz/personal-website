@@ -39,7 +39,7 @@ export default function portfolio() {
             </div>
             <div className="bg-indigo-100 flex flex-col space-y-8 px-6 py-10 justify-center items-center">
                 <h1 className="text-4xl font-bold">What I've done<br className="sm:hidden"/> and what I can do</h1>
-                <h1 className="text-2xl">Feel free to dive deeper into what I've accomplished and see what I can do<br className="sm:hidden"/> for you and your team.</h1>
+                <h1 className="text-2xl text-center">Feel free to dive deeper into what I've accomplished and see what I can do for you and your team.</h1>
                 <a href="/resume">
                     <button className="inline-flex items-center bg-indigo-500 text-gray-100 font-bold py-2 px-4 rounded-md transition duration-300 ease-in-out hover:bg-indigo-600 transform hover:-translate-y-1 hover:scale-110">
                     <span className="pr-1">View My Resume</span>
