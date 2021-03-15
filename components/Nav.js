@@ -7,13 +7,23 @@ export default function Nav() {
     const [hidden, toggleHidden] = React.useState(true)
 
     const getHidden = () => {
-        if (hidden) return 'hidden'
+        if (hidden) return 'opacity-0 absolute'
         else return ''
     }
 
-    const getMenuButton = () => {
-        if (hidden) return 'M4 6h16M4 12h16M4 18h16'
-        else return 'M6 18L18 6M6 6l12 12'
+    const transformMenuButtonTop = () => {
+        if (hidden) return ''
+        else return 'transform rotate-45 translate-y-3'
+    }
+
+    const transformMenuButtonMiddle = () => {
+        if (hidden) return ''
+        else return 'opacity-0'
+    }
+    
+    const transformMenuButtonBottom = () => {
+        if (hidden) return ''
+        else return 'transform -rotate-45 -translate-y-3'
     }
 
     const getHeaderBackground = () => {
@@ -174,16 +184,19 @@ export default function Nav() {
                         <img className="lg:px-2 py-3 transition duration-300 ease-in-out hover:opacity-75 transform hover:scale-110" src="linkedin-logo.png" alt="LinkedIn" />
                     </a>
                 </div>
-                <div className="flex justify-end flex-grow md:hidden">
-                    <button onClick={() => toggleHidden(!hidden)} >
-                        <svg className="w-12 h-12 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d={`${getMenuButton()}`} />
-                        </svg>
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d={`${getMenuButton()}`} />
+                <div className="flex justify-end flex-grow md:hidden px-9">
+                    <button className="focus:outline-none" onClick={() => toggleHidden(!hidden)} >
+                        <span class="sr-only">toggle main menu</span>
+                        <div className="block w-8 absolute transform -translate-x-1/2 -translate-y-1/2 text-indigo-600 space-y-2">
+                            <span className={`rounded-lg block h-1 w-9 bg-current transform transition duration-500 ease-in-out ${transformMenuButtonTop()}`}></span>
+                            <span className={`rounded-lg block h-1 w-9 bg-current transform transition duration-500 ease-in-out ${transformMenuButtonMiddle()}`}></span>
+                            <span className={`rounded-lg block h-1 w-9 bg-current transform transition duration-500 ease-in-out ${transformMenuButtonBottom()}`}></span>
+                        </div>
+                        
                     </button>
                 </div>
             </nav>
-            <div className={`${getHidden()} text-black flex flex-col h-screen items-end space-y-5 p-12 bg-gray-50 bg-opacity-60`}>
+            <div className={`${getHidden()} text-black flex flex-col w-screen h-screen items-end space-y-5 p-12 bg-gray-50 bg-opacity-60 transform transition duration-500 ease-in-out`}>
                 <a className="uppercase font-bold text-2xl text-black" href="/portfolio">
                     Portfolio
                 </a>

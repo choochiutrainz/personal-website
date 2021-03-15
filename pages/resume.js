@@ -12,7 +12,7 @@ export default function resume() {
                 <meta property="og:url" content="https://choochiutrain.com/resume" />
             </Head>
             <div id="section1" className="lg:flex flex-col px-6 pt-12 md:px-12 md:pt-24 lg:px-32 items-start bg-s31-blue">
-                <div className="lg:flex flex-row justify-center items-center md:px-12 lg:px-32 lg:space-x-20 space-y-12 sm:space-y-0">
+                <div className="flex flex-col lg:flex-row justify-center items-center md:px-12 lg:px-32 lg:space-x-20 space-y-12 lg:space-y-0">
                     <img className="w-96 sm:h-96 sm:w-auto text-gray-100 rounded-md" src="Official-Photo-20210217.jpg" alt="Portrait of me" />
                     <div className="flex flex-col justify-center space-y-4 text-center lg:text-left">
                         <h1 className="text-4xl text-yellow-300 uppercase font-bold">Wesley "Chewy" Chiu</h1>
@@ -53,7 +53,6 @@ export default function resume() {
                             <p className="text-xl text-gray-300">Next.js / React.js</p>
                             <p className="text-xl text-gray-300">TypeScript / JavaScript</p>
                             <p className="text-xl text-gray-300">Google Apps Script</p>
-                            <p className="text-xl text-gray-300">Angular</p>
                             <p className="text-xl text-gray-300">Python</p>
                             <p className="text-xl text-gray-300">C / C++</p>
                             <p className="text-xl text-gray-300 pb-4">Go</p>

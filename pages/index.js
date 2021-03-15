@@ -12,7 +12,7 @@ export default function Home({projects}) {
         <meta property="og:image" content="thumbnail.png" />
         <meta property="og:url" content="https://choochiutrain.com" />
       </Head>
-      <div id="section1" className="lg:flex flex-row justify-center items-center text-center lg:text-left bg-s31-blue p-16 lg:px-40 lg:py-20 lg:space-x-20 space-y-10 lg:space-y-0">
+      <div id="section1" className="flex flex-col lg:flex-row justify-center items-center text-center lg:text-left bg-s31-blue p-16 lg:px-40 lg:py-20 lg:space-x-20 space-y-10 lg:space-y-0">
         <img className="w-96 sm:h-96 sm:w-auto text-gray-100 rounded-md" src="personal-portrait.png" alt="Wesley Portrait" />
         <div className="flex flex-col justify-center space-y-8">
           <h1 className="text-4xl text-yellow-300">My passion and focus is leading software product teams.</h1>
