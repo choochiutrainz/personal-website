@@ -2,6 +2,7 @@ import Head from 'next/head'
 
 export default function contact() {
     // https://tailwindcomponents.com/component/working-contact-form-no-backend
+    // https://developers.google.com/maps/documentation/javascript/adding-a-google-map#all
     return (
         <div>
             <Head>

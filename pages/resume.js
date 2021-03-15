@@ -16,7 +16,6 @@ export default function resume() {
                     <img className="w-96 sm:h-96 sm:w-auto text-gray-100 rounded-md" src="Official-Photo-20210217.jpg" alt="Portrait of me" />
                     <div className="flex flex-col justify-center space-y-4 text-center lg:text-left">
                         <h1 className="text-4xl text-yellow-300 uppercase font-bold">Wesley "Chewy" Chiu</h1>
-                        <p className="text-xl text-gray-300">I'm an outcome-oriented Product Manager on a mission to solve compelling problems with an inspiring team.</p>
                         <p className="text-xl text-gray-300">I have a strong background in navigating difficult prioritization problems, finding the right product to build, and balancing business priorities and user needs with technical complexity.</p>
                         <p className="text-xl text-gray-300">I passionately strive to build diverse, collaborative teams that value agile principles, a learning mindset, psychological safety, curiosity, and a culture of trust.</p>
                     </div>

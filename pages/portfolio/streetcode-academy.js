@@ -9,7 +9,7 @@ export default function streetcodeacademy() {
                 <meta property="og:title" content="Promoting and practicing allyship with Streetcode Academy" />
                 <meta property="og:description" content="Empowering underprivileged communities to fulfill their full potential. See how my commitment to allyship is helping budding engineers succeed in the tech industry." />
                 <meta property="og:image" content="../thumbnail.png" />
-                <meta property="og:url" content="https://choochiutrain.com/streetcode-academy" />
+                <meta property="og:url" content="https://choochiutrain.com/portfolio/streetcode-academy" />
             </Head>
             <div id="section1" className="flex flex-col justify-center items-center text-center bg-s31-blue space-y-8 py-16 px-24">
                 <h1 className="text-4xl text-yellow-300 font-bold">How I got Involved</h1>
