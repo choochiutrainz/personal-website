@@ -14,13 +14,12 @@ export default function resume() {
             <div id="section1" className="lg:flex flex-col px-6 pt-12 md:px-12 md:pt-24 lg:px-32 items-start bg-s31-blue">
                 <div className="flex flex-col lg:flex-row justify-center items-center md:px-12 lg:px-32 lg:space-x-20 space-y-12 lg:space-y-0">
                     <img className="w-96 sm:h-96 sm:w-auto text-gray-100 rounded-md" src="Official-Photo-20210217.jpg" alt="Portrait of me" />
-                    <div className="flex flex-col justify-center space-y-4 text-center lg:text-left">
-                        <h1 className="text-4xl text-yellow-300 uppercase font-bold">Wesley "Chewy" Chiu</h1>
-                        <p className="text-xl text-gray-300">I have a strong background in navigating difficult prioritization problems, finding the right product to build, and balancing business priorities and user needs with technical complexity.</p>
-                        <p className="text-xl text-gray-300">I passionately strive to build diverse, collaborative teams that value agile principles, a learning mindset, psychological safety, curiosity, and a culture of trust.</p>
+                    <div className="flex flex-col justify-center space-y-4 text-center lg:text-left sm:text-2xl text-gray-300 lg:space-y-14">
+                        <p>I have a strong background in navigating difficult prioritization problems, finding the right product to build, and balancing business priorities and user needs with technical complexity.</p>
+                        <p>I passionately strive to build diverse, collaborative teams that value agile principles, a learning mindset, psychological safety, curiosity, and a culture of trust.</p>
                     </div>
                 </div>
-                <div className="lg:flex flex-row justify-start items-start sm:space-x-20 py-12 md:px-12 lg:px-32">
+                <div className="lg:flex flex-row justify-start items-start sm:space-x-20 py-12 lg:px-32">
                     <div className="flex flex-col justify-start py-14 sm:py-0 text-center lg:text-left">
                         <h1 className="text-4xl text-yellow-300 uppercase font-bold pb-4">Skills</h1>
                         <div className="py-4 space-y-4">
@@ -69,7 +68,7 @@ export default function resume() {
                         <h1 className="text-4xl text-yellow-300 uppercase font-bold pb-4">Experience</h1>
                         <div className="py-4 space-y-4">
                             <h2 className="text-2xl text-gray-100 font-bold">DEPUTY FLIGHT COMMANDER <br className="sm:hidden"/><span className="font-thin text-transparent sm:text-gray-100">||</span> 17th Intelligence Squadron <br className="sm:hidden"/><span className="font-thin text-transparent sm:text-gray-100">||</span> Hampton, VA <span className="font-thin">||</span> Feb '20 - Present</h2>
-                            <p className="text-xl text-gray-300">Looking to modernize tools and software used by the intelligence and cyber warfare communities to maximize mission effectivness and minimize productivity waste. Consulted other software development units on applying agile principles and fundamentals to their unique business problem set. Facilitated multiple workshops to use agile principles to better collaborate, experiment, and iterate on ideas and processes.</p>
+                            <p className="text-xl text-gray-300">Managed the development and publishing of intelligence for non-kinetic effects on targets. Used agile practices to enumerate the team's value stream map and optimize workflow processes to maximize productivity and minimize waste. Facilitated multiple workshops to apply agile principles to better collaborate, experiment, and iterate on ideas and processes.</p>
                         </div>
                         <div className="py-4 space-y-4">
                             <h2 className="pt-6 text-2xl text-gray-100 font-bold">PRODUCT MANAGER <br className="sm:hidden"/><span className="font-thin text-transparent sm:text-gray-100">||</span> Section 31 - U.S. Space Force <br className="sm:hidden"/><span className="font-thin text-transparent sm:text-gray-100">||</span> Santa Monica, CA <span className="font-thin">||</span> May '19 - Feb '20</h2>
@@ -81,21 +80,13 @@ export default function resume() {
                         </div>
                         <div className="py-4 space-y-4">
                             <h2 className="pt-6 text-2xl text-gray-100 font-bold">PRODUCT MANAGER <br className="sm:hidden"/><span className="font-thin text-transparent sm:text-gray-100">||</span> Defense Innovation Unit Experimental <br className="sm:hidden"/><span className="font-thin text-transparent sm:text-gray-100">||</span> Mountain View, CA <span className="font-thin">||</span> Feb '18 - Nov '18</h2>
-                            <p className="text-xl text-gray-300">Led multiple multi-million dollar pathfinder projects to rapidly apply commercial innovations to DoD problems. Adapted commercial solutions to unique warfighter needs with a focus on user centered design. Enabled a community of non-traditional start ups and businesses to sign rapid prototyping contracts with military entities within 60 days on average after project initiation.</p>
+                            <p className="text-xl text-gray-300">Shepherded multiple multi-million dollar pathfinder projects to rapidly apply commercial innovations to DoD problems. Adapted commercial solutions to unique warfighter needs with a focus on user centered design. Enabled a community of non-traditional start ups and businesses to sign rapid prototyping contracts with military entities within 60 days on average after project initiation.</p>
                         </div>
                         <div className="py-4 space-y-4">
                             <h2 className="pt-6 text-2xl text-gray-100 font-bold">PENETRATION TESTER <br className="sm:hidden"/><span className="font-thin text-transparent sm:text-gray-100">||</span> DARPA Swarm Drone Challenge <br className="sm:hidden"/><span className="font-thin text-transparent sm:text-gray-100">||</span> Colorado Springs, CO <span className="font-thin">||</span> Oct '16 - Mar '17</h2>
                             <p className="text-xl text-gray-300">Was part of the US Air Force Academy team to develop and code tactics, techniques, and behaviors for drones that act as a collective swarm. Also penetration tested the drones provided by DARPA and exploited vulnerabilities during a live-fly event to demonstrate the importance of cyber security in emerging technologies and showcase how one can use cyberwarfare to gain an tactical advantage over a more technologically advanced foe.</p>
                         </div>
-                        <div className="py-4 space-y-4">
-                            <h2 className="pt-6 text-2xl text-gray-100 font-bold">SOFTWARE ENGINEERING INTERN <br className="sm:hidden"/><span className="font-thin text-transparent sm:text-gray-100">||</span> National Reconnaissance Office <br className="sm:hidden"/><span className="font-thin text-transparent sm:text-gray-100">||</span> Chantilly, VA <span className="font-thin">||</span> May '16 - Aug '16</h2>
-                            <p className="text-xl text-gray-300">Was part of the External Cloud Office at the National Reconnaissance Office (NRO) Headquarters to introduce and integrate an AWS hosted service called the Commercial Cloud Service (C2S) to the NRO. Assisted U.S. partner intelligence agencies and international allies on transitioning to the C2S environment. Developed and deployed basic scripts to minimize time spent on migrating data, provisioning accounts, and transitioning operations to C2S.</p>
-                        </div>
-                        <div className="py-4 space-y-4">
-                            <h2 className="pt-6 text-2xl text-gray-100 font-bold">SOFTWARE REVERSE ENGINEERING INTERN <br className="sm:hidden"/><span className="font-thin text-transparent sm:text-gray-100">||</span> National Reconnaissance Office <br className="sm:hidden"/><span className="font-thin text-transparent sm:text-gray-100">||</span> Denver, CO <span className="font-thin">||</span> May '15 - Aug '15</h2>
-                            <p className="text-xl text-gray-300 pb-16">Developed and deployed apps for data aggregation and signals intelligence development that replaced manual excel process with a 80% decrease in processing time. Reverse engineered various communication technologies to enable signals collection and analysis.</p>
-                        </div>
-                        <div className="py-4 space-y-4">
+                        <div className="py-10 space-y-6">
                             <h1 className="text-4xl text-yellow-300 uppercase font-bold">{`Education & Certifications`}</h1>
                             <p className="text-xl text-gray-300"><span className="pt-6 text-xl text-gray-100 font-bold">OFFENSIVE SECURITY CERTIFIED PROFESSIONAL</span> <br className="sm:hidden"/><span className="font-thin text-transparent sm:text-gray-100">||</span> In Progress || Offensive Security</p>
                             <p className="text-xl text-gray-300"><span className="pt-6 text-xl text-gray-100 font-bold">SECURITY+</span> <br className="sm:hidden"/><span className="font-thin text-transparent sm:text-gray-100">||</span> 2018 || CompTIA</p>

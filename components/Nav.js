@@ -159,7 +159,7 @@ export default function Nav() {
         <div className={`h-screen w-screen bg-cover bg-center ${getHeaderBackground()}`}>
             <nav className="bg-gray-50 bg-opacity-60 flex items-center px-12 py-2 lg:px-32 lg:py-0">
                 <a href="/">
-                    <img className="py-3 h-20 transition duration-300 ease-in-out hover:opacity-75 transform hover:scale-110" src="chewy-logo.png" alt="Home" />
+                    <img className="py-3 h-20 uppercase font-bold text-lg text-black transition duration-300 ease-in-out hover:opacity-75 transform hover:scale-110" src="chewy-logo.png" alt="Home" />
                 </a>
                 <div className="hidden md:flex md:space-x-8 lg:space-x-20 justify-center flex-grow">
                     <a className="uppercase font-bold text-lg text-black transition duration-300 ease-in-out hover:text-indigo-600 transform hover:scale-110" href="/portfolio">
@@ -177,10 +177,10 @@ export default function Nav() {
                         Contact
                     </a>
                     <a href="https://github.com/choochiutrainz">
-                        <img className="lg:px-2 py-3 transition duration-300 ease-in-out hover:opacity-50 transform hover:scale-110" src="github-logo.png" alt="GitHub" />
+                        <img className="lg:px-2 py-3 uppercase font-bold text-lg text-black transition duration-300 ease-in-out hover:opacity-50 transform hover:scale-110" src="github-logo.png" alt="GitHub" />
                     </a>
                     <a href="https://www.linkedin.com/in/choochiutrain">
-                        <img className="lg:px-2 py-3 transition duration-300 ease-in-out hover:opacity-75 transform hover:scale-110" src="linkedin-logo.png" alt="LinkedIn" />
+                        <img className="lg:px-2 py-3 uppercase font-bold text-lg text-black transition duration-300 ease-in-out hover:opacity-75 transform hover:scale-110" src="linkedin-logo.png" alt="LinkedIn" />
                     </a>
                 </div>
                 <div className="flex justify-end flex-grow md:hidden px-9">

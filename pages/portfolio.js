@@ -14,27 +14,57 @@ export default function portfolio() {
             <div id="section1" className="w-screen flex flex-col justify-center items-center text-center bg-gray-200 space-y-8 px-6 py-24 lg:px-24">
                 <h1 className="text-4xl font-bold">I'm always looking to solve the next big challenge.</h1>
                 <p className="text-2xl">I’ve centered my career around solving compelling problems and producing real, tangible impact for the business and the end user. There is no problem that I can't tackle. Here are some of my most recent projects that showcase how we broadened the art of possible.</p>
-                <div className="lg:flex flex-row justify-center items-center space-x-20">
-                    <a href="/portfolio/section-31">
-                        <img className="w-96 sm:h-96 sm:w-auto rounded-md transition duration-300 ease-in-out hover:opacity-75" src="wes-with-starfox-2.jpg" alt="Section 31 project" />
-                    </a>
-                    <a href="/portfolio/rogue-squadron">
-                        <img className="w-96 sm:h-96 sm:w-auto rounded-md transition duration-300 ease-in-out hover:opacity-75" src="rogue-squadron.png" alt="Rogue Squadron project" />
-                    </a>
-                    <a href="/portfolio/defense-innovation-unit">
-                        <img className="w-96 sm:h-96 sm:w-auto rounded-md transition duration-300 ease-in-out hover:opacity-75" src="zipline-team-1.png" alt="DIUx project" />
-                    </a>
+                <div className="lg:flex flex-row justify-center items-center lg:space-x-20 space-y-8 lg:space-y-0">
+                    <div className="relative transition duration-300 ease-in-out">  
+                        <img className="w-96 sm:h-96 sm:w-auto bg-gray-400 rounded-md darken-img" src="wes-with-starfox-2.jpg" alt="Section 31 project" />
+                        <div className="absolute inset-48 top-52 sm:inset-32 md:left-28 lg:inset-36 lg:inset-y-36 lg:inset-x-4 flex flex-col items-center space-y-3">
+                        <span className="uppercase tracking-wide text-2xl font-bold text-yellow-300">SureFire</span>
+                        <button className="uppercase border-4 rounded-md font-bold border-yellow-300 text-yellow-300 py-2 px-5 w-48 transition duration-300 ease-in-out hover:bg-yellow-300 hover:text-black">
+                            <a href="/portfolio/section-31">View Project</a>
+                        </button>
+                        </div>
+                    </div>
+                    <div className="relative transition duration-300 ease-in-out">
+                        <img className="w-96 sm:h-96 sm:w-auto rounded-md darken-img" src="rogue-squadron.png" alt="Rogue Squadron project" />
+                        <div className="absolute inset-48 top-52 sm:inset-32 md:left-28 lg:inset-36 lg:inset-y-36 lg:inset-x-4 flex flex-col items-center space-y-3">
+                        <span className="uppercase tracking-wide text-2xl font-bold text-yellow-300">Dowding</span>
+                        <button className="uppercase border-4 rounded-md font-bold border-yellow-300 text-yellow-300 py-2 px-5 w-48 transition duration-300 ease-in-out hover:bg-yellow-300 hover:text-black">
+                            <a href="/portfolio/rogue-squadron">View Project</a>
+                        </button>
+                        </div>
+                    </div>
+                    <div className="relative transition duration-300 ease-in-out">
+                        <img className="w-96 sm:h-96 sm:w-auto rounded-md darken-img" src="zipline-team-1.png" alt="DIUx project" />
+                        <div className="absolute inset-48 top-52 sm:inset-32 md:left-28 lg:inset-36 lg:inset-y-36 lg:inset-x-4 flex flex-col items-center space-y-3">
+                        <span className="uppercase tracking-wide text-2xl font-bold text-yellow-300">Zipline</span>
+                        <button className="uppercase border-4 rounded-md font-bold border-yellow-300 text-yellow-300 py-2 px-5 w-48 transition duration-300 ease-in-out hover:bg-yellow-300 hover:text-black">
+                            <a className="" href="/portfolio/defense-innovation-unit">View Project</a>
+                        </button>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div className="flex flex-col bg-white justify-center items-center px-6 sm:px-24 py-24">
+            <div className="flex flex-col bg-white justify-center items-center px-6 sm:px-24 py-24 space-y-16">
                 <h1 className="text-center text-4xl font-bold">Check out some of the other projects that I have been part of.</h1>
-                <div className="lg:flex flex-row justify-center items-center space-x-20 pt-16">
-                    <a href="/portfolio/streetcode-academy">
-                        <img className="w-96 sm:h-96 sm:w-auto rounded-md transition duration-300 ease-in-out hover:opacity-75" src="streetcode-team-1.png" alt="Section 31 project" />
-                    </a>
-                    <a href="/portfolio/darpa">
-                        <img className="w-96 sm:h-96 sm:w-auto rounded-md transition duration-300 ease-in-out hover:opacity-75" src="wes-holding-uas.jpg" alt="Rogue Squadron project" />
-                    </a>
+                 <div className="lg:flex flex-row justify-center items-center lg:space-x-20 space-y-8 lg:space-y-0">
+                    <div className="relative transition duration-300 ease-in-out">
+                        <img className="w-96 sm:h-96 sm:w-auto rounded-md transition duration-300 ease-in-out darken-img" src="streetcode-team-1.png" alt="Section 31 project" />
+                        <div className="absolute inset-10 top-52 sm:inset-32 md:left-32 lg:inset-36 lg:inset-y-32 lg:inset-x-4 flex flex-col items-center space-y-3">
+                            <span className="uppercase tracking-wide text-2xl font-bold text-yellow-300 text-center">Streetcode Academy</span>
+                            <button className="uppercase border-4 rounded-md font-bold border-yellow-300 text-yellow-300 py-2 px-5 w-48 transition duration-300 ease-in-out hover:bg-yellow-300 hover:text-black">
+                                <a href="/portfolio/streetcode-academy">View Project</a>
+                            </button>
+                        </div>
+                    </div>
+                    <div className="relative transition duration-300 ease-in-out">
+                        <img className="w-96 sm:h-96 sm:w-auto rounded-md transition duration-300 darken-img" src="wes-holding-uas.jpg" alt="DARPA Swarm Drone Challenge" />
+                        <div className="absolute inset-10 top-48 sm:inset-24 md:inset-24 md:left-24 lg:inset-36 lg:inset-y-32 lg:inset-x-4 flex flex-col items-center space-y-3">
+                            <span className="uppercase tracking-wide text-2xl font-bold text-yellow-300 text-center">DARPA Swarm Drone Challenge</span>
+                            <button className="uppercase border-4 rounded-md font-bold border-yellow-300 text-yellow-300 py-2 px-5 w-48 transition duration-300 ease-in-out hover:bg-yellow-300 hover:text-black">
+                                <a href="/portfolio/darpa">View Project</a>
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div className="bg-indigo-100 flex flex-col space-y-8 px-6 py-10 justify-center items-center">

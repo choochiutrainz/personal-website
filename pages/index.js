@@ -43,16 +43,34 @@ export default function Home({projects}) {
       <div className="flex flex-col space-y-8 py-16 justify-center items-center bg-white">
         <h1 className="text-center w-screen text-4xl font-bold">My Projects</h1>
         <p className="text-center text-xl px-16 sm:px-32 md:px-40 lg:px-80">It's a wonderful opportunity to work with people who are so passionate about their own craft and to enable them to achieve new heights. Check out my latest projects that I've been working on.</p>
-        <div className="lg:flex flex-row justify-center items-center space-x-20">
-          <a href="/portfolio/section-31">
-            <img className="w-96 sm:h-96 sm:w-auto rounded-md transition duration-300 ease-in-out hover:opacity-75" src="wes-with-starfox-2.jpg" alt="Section 31 project" />
-          </a>
-          <a className="pt-24" href="/portfolio/rogue-squadron">
-            <img className="w-96 sm:h-96 sm:w-auto rounded-md transition duration-300 ease-in-out hover:opacity-75" src="rogue-squadron.png" alt="Rogue Squadron project" />
-          </a>
-          <a href="/portfolio/defense-innovation-unit">
-            <img className="w-96 sm:h-96 sm:w-auto rounded-md transition duration-300 ease-in-out hover:opacity-75" src="zipline-team-1.png" alt="DIUx project" />
-          </a>
+        <div className="lg:flex flex-row justify-center items-center lg:space-x-20 space-y-8 lg:space-y-0">
+          <div className="relative transition duration-300 ease-in-out">  
+            <img className="w-96 sm:h-96 sm:w-auto bg-gray-400 rounded-md darken-img" src="wes-with-starfox-2.jpg" alt="Section 31 project" />
+            <div className="absolute inset-48 top-52 sm:inset-32 md:left-28 lg:inset-36 lg:inset-y-36 lg:inset-x-4 flex flex-col items-center space-y-3">
+              <span className="uppercase tracking-wide text-2xl font-bold text-yellow-300">SureFire</span>
+              <button className="uppercase border-4 rounded-md font-bold border-yellow-300 text-yellow-300 py-2 px-5 w-48 transition duration-300 ease-in-out hover:bg-yellow-300 hover:text-black">
+                <a href="/portfolio/section-31">View Project</a>
+              </button>
+            </div>
+          </div>
+          <div className="relative lg:pt-32 transition duration-300 ease-in-out">
+            <img className="w-96 sm:h-96 sm:w-auto rounded-md darken-img" src="rogue-squadron.png" alt="Rogue Squadron project" />
+            <div className="absolute inset-48 top-52 sm:inset-32 md:left-28 lg:inset-36 lg:inset-y-64 lg:inset-x-4 flex flex-col items-center space-y-3">
+              <span className="uppercase tracking-wide text-2xl font-bold text-yellow-300">Dowding</span>
+              <button className="uppercase border-4 rounded-md font-bold border-yellow-300 text-yellow-300 py-2 px-5 w-48 transition duration-300 ease-in-out hover:bg-yellow-300 hover:text-black">
+                <a href="/portfolio/rogue-squadron">View Project</a>
+              </button>
+            </div>
+          </div>
+          <div className="relative transition duration-300 ease-in-out">
+            <img className="w-96 sm:h-96 sm:w-auto rounded-md darken-img" src="zipline-team-1.png" alt="DIUx project" />
+            <div className="absolute inset-48 top-52 sm:inset-32 md:left-28 lg:inset-36 lg:inset-y-36 lg:inset-x-4 flex flex-col items-center space-y-3">
+              <span className="uppercase tracking-wide text-2xl font-bold text-yellow-300">Zipline</span>
+              <button className="uppercase border-4 rounded-md font-bold border-yellow-300 text-yellow-300 py-2 px-5 w-48 transition duration-300 ease-in-out hover:bg-yellow-300 hover:text-black">
+                <a className="" href="/portfolio/defense-innovation-unit">View Project</a>
+              </button>
+            </div>
+          </div>
         </div>
         <a className="pt-12" href="/portfolio">
           <button className="inline-flex items-center bg-indigo-500 text-gray-100 font-bold py-2 px-4 rounded-md transition duration-300 ease-in-out hover:bg-indigo-600 transform hover:-translate-y-1 hover:scale-110">
