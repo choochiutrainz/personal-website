@@ -13,7 +13,7 @@ module.exports = {
       backgroundColor: theme => ({
         ...theme('colors'),
         's31-blue': "#1C2736",
-      })
+      }),
     },
   },
   variants: {

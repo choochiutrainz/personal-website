@@ -14,7 +14,7 @@ export default function Home({projects}) {
       </Head>
       <div id="section1" className="flex flex-col lg:flex-row justify-center items-center text-center lg:text-left bg-s31-blue p-16 lg:px-40 lg:py-20 lg:space-x-20 space-y-10 lg:space-y-0">
         <img className="w-96 sm:h-96 sm:w-auto text-gray-100 rounded-md" src="personal-portrait.png" alt="Wesley Portrait" />
-        <div className="flex flex-col justify-center space-y-8">
+        <div className="space-y-8">
           <h1 className="text-4xl text-yellow-300">My passion and focus is leading software product teams.</h1>
           <p className="text-2xl text-gray-100">I strive to build and lead diverse, collaborative, and kick-ass teams that deliver a working, reliable product that users love. If you want to learn more about working together, <a className="text-yellow-300 transition duration-300 ease-in-out hover:text-gray-100 hover:underline" href="/contact">contact me</a> today!</p>
         </div>
@@ -44,14 +44,12 @@ export default function Home({projects}) {
         <h1 className="text-center w-screen text-4xl font-bold">My Projects</h1>
         <p className="text-center text-xl px-16 sm:px-32 md:px-40 lg:px-80">It's a wonderful opportunity to work with people who are so passionate about their own craft and to enable them to achieve new heights. Check out my latest projects that I've been working on.</p>
         <div className="lg:flex flex-row justify-center items-center lg:space-x-20 space-y-8 lg:space-y-0">
-          <div className="relative transition duration-300 ease-in-out">  
+          <div className="relative transition duration-300 ease-in-out bg-red-500">  
             <img className="w-96 sm:h-96 sm:w-auto bg-gray-400 rounded-md darken-img" src="wes-with-starfox-2.jpg" alt="Section 31 project" />
-            <div className="absolute inset-48 top-52 sm:inset-32 md:left-28 lg:inset-36 lg:inset-y-36 lg:inset-x-4 flex flex-col items-center space-y-3">
+            <figcaption className="absolute inset-48 top-52 sm:inset-32 md:left-28 lg:inset-36 lg:inset-y-36 lg:inset-x-4 flex flex-col items-center space-y-3">
               <span className="uppercase tracking-wide text-2xl font-bold text-yellow-300">SureFire</span>
-              <button className="uppercase border-4 rounded-md font-bold border-yellow-300 text-yellow-300 py-2 px-5 w-48 transition duration-300 ease-in-out hover:bg-yellow-300 hover:text-black">
-                <a href="/portfolio/section-31">View Project</a>
-              </button>
-            </div>
+                <a className="uppercase border-4 rounded-md font-bold border-yellow-300 text-yellow-300 py-2 px-5 w-48 transition duration-300 ease-in-out hover:bg-yellow-300 hover:text-black" href="/portfolio/section-31">View Project</a>
+            </figcaption>
           </div>
           <div className="relative lg:pt-32 transition duration-300 ease-in-out">
             <img className="w-96 sm:h-96 sm:w-auto rounded-md darken-img" src="rogue-squadron.png" alt="Rogue Squadron project" />
