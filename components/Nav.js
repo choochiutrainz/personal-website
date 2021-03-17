@@ -60,23 +60,23 @@ export default function Nav() {
                 </div>
             </nav>
             <div className={`${getHidden()} absolute text-black flex flex-col w-screen h-screen items-end space-y-5 p-12 bg-gray-50 bg-opacity-60 transform transition duration-500 ease-in-out uppercase font-bold text-2xl text-black`}>
-                <a href="/portfolio">
+                <a className="text-black transition duration-300 ease-in-out hover:text-indigo-600 transform hover:scale-110" href="/portfolio">
                     Portfolio
                 </a>
-                <a href="/passions">
+                <a className="text-black transition duration-300 ease-in-out hover:text-indigo-600 transform hover:scale-110" href="/passions">
                     Passions
                 </a>
-                <a href="/resume">
+                <a className="text-black transition duration-300 ease-in-out hover:text-indigo-600 transform hover:scale-110" href="/resume">
                     Resume
                 </a>
-                <a href="/contact">
+                <a className="text-black transition duration-300 ease-in-out hover:text-indigo-600 transform hover:scale-110" href="/contact">
                     Contact
                 </a>
                 <div className="flex flex-row space-x-5">
-                    <a href="https://github.com/choochiutrainz">
+                    <a className="uppercase font-bold text-lg text-black transition duration-300 ease-in-out hover:opacity-50 transform hover:scale-110" href="https://github.com/choochiutrainz">
                         <img className="lg:px-2 py-3 h-16" src="github-logo.png" alt="GitHub" />
                     </a>
-                    <a href="https://www.linkedin.com/in/choochiutrain">
+                    <a className="uppercase font-bold text-lg text-black transition duration-300 ease-in-out hover:opacity-50 transform hover:scale-110" href="https://www.linkedin.com/in/choochiutrain">
                         <img className="lg:px-2 py-3 h-16" src="linkedin-logo.png" alt="LinkedIn" />
                     </a>
                 </div>

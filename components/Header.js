@@ -133,7 +133,7 @@ export default function Header() {
     }
 
     return (
-        <div className={`h-screen w-screen bg-cover bg-center ${getHeaderBackground()} -my-24 sm:-my-22 mb-1`}>
+        <div className={`h-screen bg-cover bg-center ${getHeaderBackground()} -my-24 sm:-my-22 mb-1`}>
             <div className="flex flex-row justify-start items-center mx-auto h-screen px-8 pb-2 sm:px-16 sm:pb-4 md:px-32 md:pb-8 lg:px-64 lg:pb-16">
                 {getHeaderText()}
             </div>
