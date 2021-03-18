@@ -11,7 +11,7 @@ export default function roguesquadron() {
                 <meta property="og:image" content="../thumbnail.png" />
                 <meta property="og:url" content="https://choochiutrain.com/portfolio/rogue-squadron" />
             </Head>
-            <div id="section1" className="flex flex-col justify-center items-center text-center bg-s31-blue space-y-8 py-16 px-24">
+            <div id="section1" className="flex flex-col justify-center items-center text-center bg-s31-blue space-y-8 py-16 px-6 sm:px-24">
                 <h1 className="text-4xl text-yellow-300 font-bold">The Dowding Story</h1>
                 <p className="text-2xl text-gray-300">In 2017, ISIS began using comercially available drones to drop grenades on troops. The Department of Defense (DoD) needed a quality, modern solution to detect and protect against them. So we built Dowding.</p>
                 <img className="rounded-md transition duration-300 ease-in-out" src="../dowding-homepage.png" alt="Dowding homepage" />
@@ -23,10 +23,10 @@ export default function roguesquadron() {
                 <li className="text-2xl">Mobile-Centric</li>
                 <li className="text-2xl">Built with a modern tech stack</li>
                 <li className="text-2xl">Clean, minimal UI's that our users love</li>
-                <p className="px-24 text-xl text-center">(Fun Fact: Dowding was named for the <a className="underline text-indigo-600 transition duration-300 ease-in-out hover:text-yellow-500 hover:opacity-70" href="https://en.wikipedia.org/wiki/Dowding_system">Dowding System</a>, the world’s first integrated air defense system that helped win the Battle of Britain)</p>
+                <p className="px-6 sm:px-24 text-xl text-center">(Fun Fact: Dowding was named for the <a className="underline text-indigo-600 transition duration-300 ease-in-out hover:text-yellow-500 hover:opacity-70" href="https://en.wikipedia.org/wiki/Dowding_system">Dowding System</a>, the world’s first integrated air defense system that helped win the Battle of Britain)</p>
             </div>
             <div className="w-screen px-6 py-16 bg-white space-y-8 items-center text-center sm:text-left">
-                <h1 className="text-center w-screen text-4xl font-bold">About Rogue Squadron</h1>
+                <h1 className="text-center text-4xl font-bold">About Rogue Squadron</h1>
                 <img className="w-64 sm:h-auto sm:float-left px-10 pb-6 sm:pb-0" src="../rogue-squadron-logo.png" alt="Rogue Squadron Logo"></img>
                 <p className="text-2xl"><a className="underline text-indigo-600 transition duration-300 ease-in-out hover:text-yellow-500 hover:opacity-70" href="https://www.linkedin.com/company/diux-rogue-squadron">Rogue Squadron</a> is the DoD's premier UAS/Counter-UAS team, focused on detecting, penetration testing, and hardening commercially available drones for national defense use.</p>
                 <p className="text-2xl">We're the only organization with the resources and capability to meet immediate operational needs around drones, and we have been providing support to over 200 organizations across the Departments of Defense, Homeland Security, Interior, and Justice as well as allied partners.</p>
