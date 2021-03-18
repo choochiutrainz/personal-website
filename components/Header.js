@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router'
 
-export default function Header() {
+export default function Header({url}) {
     const router = useRouter()
 
     const getHeaderBackground = () => {

@@ -33,7 +33,7 @@ export default function Home({projects}) {
         </div>
         <a href="/passions">
           <button className="inline-flex items-center bg-indigo-500 text-gray-100 font-bold py-2 px-4 rounded-md transition duration-300 ease-in-out hover:bg-indigo-600 transform hover:-translate-y-1 hover:scale-110">
-            <span className="pr-1">Learn More About Me</span>
+            <p className="pr-1">Learn More About Me</p>
             <svg className="w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
@@ -44,17 +44,17 @@ export default function Home({projects}) {
         <h1 className="text-center w-screen text-4xl font-bold">My Projects</h1>
         <p className="text-center text-xl px-16 sm:px-32 md:px-40 lg:px-80">It's a wonderful opportunity to work with people who are so passionate about their own craft and to enable them to achieve new heights. Check out my latest projects that I've been working on.</p>
         <div className="lg:flex flex-row justify-center items-center lg:space-x-20 space-y-8 lg:space-y-0">
-          <div className="relative transition duration-300 ease-in-out bg-red-500">  
+          <div className="relative transition duration-300 ease-in-out">  
             <img className="w-96 sm:h-96 sm:w-auto bg-gray-400 rounded-md darken-img" src="wes-with-starfox-2.jpg" alt="Section 31 project" />
             <figcaption className="absolute inset-48 top-52 sm:inset-32 md:left-28 lg:inset-36 lg:inset-y-36 lg:inset-x-4 flex flex-col items-center space-y-3">
-              <span className="uppercase tracking-wide text-2xl font-bold text-yellow-300">SureFire</span>
+              <p className="uppercase tracking-wide text-2xl font-bold text-yellow-300">SureFire</p>
                 <a className="uppercase border-4 rounded-md font-bold border-yellow-300 text-yellow-300 py-2 px-5 w-48 transition duration-300 ease-in-out hover:bg-yellow-300 hover:text-black" href="/portfolio/section-31">View Project</a>
             </figcaption>
           </div>
           <div className="relative lg:pt-32 transition duration-300 ease-in-out">
-            <img className="w-96 sm:h-96 sm:w-auto rounded-md darken-img" src="rogue-squadron.png" alt="Rogue Squadron project" />
+            <img className="w-96 sm:h-96 sm:w-auto bg-gray-400 rounded-md darken-img" src="rogue-squadron.png" alt="Rogue Squadron project" />
             <div className="absolute inset-48 top-52 sm:inset-32 md:left-28 lg:inset-36 lg:inset-y-64 lg:inset-x-4 flex flex-col items-center space-y-3">
-              <span className="uppercase tracking-wide text-2xl font-bold text-yellow-300">Dowding</span>
+              <p className="uppercase tracking-wide text-2xl font-bold text-yellow-300">Dowding</p>
               <button className="uppercase border-4 rounded-md font-bold border-yellow-300 text-yellow-300 py-2 px-5 w-48 transition duration-300 ease-in-out hover:bg-yellow-300 hover:text-black">
                 <a href="/portfolio/rogue-squadron">View Project</a>
               </button>
@@ -63,7 +63,7 @@ export default function Home({projects}) {
           <div className="relative transition duration-300 ease-in-out">
             <img className="w-96 sm:h-96 sm:w-auto rounded-md darken-img" src="zipline-team-1.png" alt="DIUx project" />
             <div className="absolute inset-48 top-52 sm:inset-32 md:left-28 lg:inset-36 lg:inset-y-36 lg:inset-x-4 flex flex-col items-center space-y-3">
-              <span className="uppercase tracking-wide text-2xl font-bold text-yellow-300">Zipline</span>
+              <p className="uppercase tracking-wide text-2xl font-bold text-yellow-300">Zipline</p>
               <button className="uppercase border-4 rounded-md font-bold border-yellow-300 text-yellow-300 py-2 px-5 w-48 transition duration-300 ease-in-out hover:bg-yellow-300 hover:text-black">
                 <a className="" href="/portfolio/defense-innovation-unit">View Project</a>
               </button>
@@ -72,7 +72,7 @@ export default function Home({projects}) {
         </div>
         <a className="pt-12" href="/portfolio">
           <button className="inline-flex items-center bg-indigo-500 text-gray-100 font-bold py-2 px-4 rounded-md transition duration-300 ease-in-out hover:bg-indigo-600 transform hover:-translate-y-1 hover:scale-110">
-            <span className="pr-1">More Projects</span>
+            <p className="pr-1">More Projects</p>
             <svg className="w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
