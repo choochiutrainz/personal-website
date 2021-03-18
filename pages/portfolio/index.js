@@ -14,7 +14,7 @@ export default function portfolio() {
             <div id="section1" className="w-screen flex flex-col justify-center items-center text-center bg-gray-200 space-y-8 px-6 py-24 lg:px-24">
                 <h1 className="text-4xl font-bold">I'm always looking to solve the next big challenge.</h1>
                 <p className="text-2xl">I’ve centered my career around solving compelling problems and producing real, tangible impact for the business and the end user. There is no problem that I can't tackle. Here are some of my most recent projects that showcase how we broadened the art of possible.</p>
-                <div className="lg:flex flex-row justify-center items-center lg:space-x-20 space-y-8 lg:space-y-0">
+                <div className="flex flex-col lg:flex-row justify-center items-center lg:space-x-20 space-y-8 lg:space-y-0">
                     <div className="relative transition duration-300 ease-in-out">  
                         <img className="w-96 sm:h-96 sm:w-auto bg-gray-400 rounded-md darken-img" src="wes-with-starfox-2.jpg" alt="Section 31 project" />
                         <div className="absolute inset-48 top-52 sm:inset-32 md:left-28 lg:inset-36 lg:inset-y-36 lg:inset-x-4 flex flex-col items-center space-y-3">
@@ -68,7 +68,7 @@ export default function portfolio() {
                 </div>
             </div>
             <div className="bg-indigo-100 flex flex-col space-y-8 px-6 py-10 justify-center items-center">
-                <h1 className="text-4xl font-bold">What I've done<br className="sm:hidden"/> and what I can do</h1>
+                <h1 className="text-4xl font-bold text-center">What I've done<br className="sm:hidden"/> and what I can do</h1>
                 <h1 className="text-2xl text-center">Feel free to dive deeper into what I've accomplished and see what I can do for you and your team.</h1>
                 <a href="/resume">
                     <button className="inline-flex items-center bg-indigo-500 text-gray-100 font-bold py-2 px-4 rounded-md transition duration-300 ease-in-out hover:bg-indigo-600 transform hover:-translate-y-1 hover:scale-110">

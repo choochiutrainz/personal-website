@@ -16,7 +16,7 @@ export default function Home({projects}) {
         <img className="w-96 sm:h-96 sm:w-auto text-gray-100 rounded-md" src="personal-portrait.png" alt="Wesley Portrait" />
         <div className="space-y-8">
           <h1 className="text-4xl text-yellow-300">My passion and focus is leading software product teams.</h1>
-          <p className="text-2xl text-gray-100">I strive to build and lead diverse, collaborative, and kick-ass teams that deliver a working, reliable product that users love. If you want to learn more about working together, <a className="text-yellow-300 transition duration-300 ease-in-out hover:text-gray-100 hover:underline" href="/contact">contact me</a> today!</p>
+          <p className="text-2xl text-gray-100">I strive to build and lead diverse, collaborative, and kick-ass teams that deliver a working, reliable product that users love. If you want to learn more about working together, <br className="sm:hidden" /><a className="text-yellow-300 transition duration-300 ease-in-out hover:text-gray-100 hover:underline" href="/contact">contact me</a> today!</p>
         </div>
       </div>
       <div className="flex flex-col bg-gray-200 justify-center items-center pb-16">
@@ -43,7 +43,7 @@ export default function Home({projects}) {
       <div className="flex flex-col space-y-8 py-16 justify-center items-center bg-white">
         <h1 className="text-center w-screen text-4xl font-bold">My Projects</h1>
         <p className="text-center text-xl px-16 sm:px-32 md:px-40 lg:px-80">It's a wonderful opportunity to work with people who are so passionate about their own craft and to enable them to achieve new heights. Check out my latest projects that I've been working on.</p>
-        <div className="lg:flex flex-row justify-center items-center lg:space-x-20 space-y-8 lg:space-y-0">
+        <div className="flex flex-col lg:flex-row justify-center items-center lg:space-x-20 space-y-8 lg:space-y-0">
           <div className="relative transition duration-300 ease-in-out">  
             <img className="w-96 sm:h-96 sm:w-auto bg-gray-400 rounded-md darken-img" src="wes-with-starfox-2.jpg" alt="Section 31 project" />
             <figcaption className="absolute inset-48 top-52 sm:inset-32 md:left-28 lg:inset-36 lg:inset-y-36 lg:inset-x-4 flex flex-col items-center space-y-3">
@@ -80,7 +80,7 @@ export default function Home({projects}) {
         </a>
       </div>
       <div className="bg-indigo-100 flex flex-col space-y-8 py-10 justify-center items-center">
-        <h1 className="text-center w-screen text-2xl font-bold">Product Manager <br className="sm:hidden"/><span className="text-transparent sm:text-black">|</span> Penetration Tester | Portrait Photographer</h1>
+        <h2 className="text-center w-screen text-2xl font-bold">Product Manager <br className="sm:hidden"/><span className="text-transparent sm:text-black">|</span> Penetration Tester <br className="sm:hidden"/><span className="text-transparent sm:text-black">|</span> Portrait Photographer</h2>
         <h1 className="text-center w-screen text-4xl font-bold">Ready to build the<br className="sm:hidden"/> next great thing together?</h1>
         <a href="/contact">
           <button className="inline-flex items-center bg-indigo-500 text-gray-100 font-bold py-2 px-4 rounded-md transition duration-300 ease-in-out hover:bg-indigo-600 transform hover:-translate-y-1 hover:scale-110">
